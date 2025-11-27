@@ -1,0 +1,98 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <rect width="900" height="650" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2c3e50">ELECTRICITY CRISIS: 57% ABOVE NATIONAL AVERAGE</text>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">$4.4 billion in policy mandates driving rates up | Source: EIA, Fiscal Alliance Foundation</text>
+  
+  <!-- Big stats -->
+  <rect x="30" y="75" width="200" height="85" rx="6" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">MA RATE</text>
+  <text x="130" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#c0392b">27.4¢</text>
+  <text x="130" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">per kWh</text>
+  
+  <rect x="245" y="75" width="200" height="85" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="345" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e8449">US AVERAGE</text>
+  <text x="345" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1e8449">17.5¢</text>
+  <text x="345" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">per kWh</text>
+  
+  <rect x="460" y="75" width="200" height="85" rx="6" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2"/>
+  <text x="560" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">POLICY COSTS</text>
+  <text x="560" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#d35400">$4.4B</text>
+  <text x="560" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">annual mandates</text>
+  
+  <rect x="675" y="75" width="195" height="85" rx="6" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="772" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">YOUR EXTRA COST</text>
+  <text x="772" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#8e44ad">$1,188</text>
+  <text x="772" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">per household/year</text>
+  
+  <!-- Policy cost breakdown -->
+  <rect x="30" y="180" width="420" height="175" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="240" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">WHERE $4.4B IN POLICY COSTS GO</text>
+  
+  <rect x="50" y="230" width="220" height="22" fill="#e74c3c" rx="2"/>
+  <text x="60" y="246" font-family="Arial" font-size="10" fill="white">Mass Save</text>
+  <text x="285" y="246" font-family="Arial" font-size="10" font-weight="bold" fill="#333">$1.5B/yr</text>
+  
+  <rect x="50" y="260" width="130" height="22" fill="#f39c12" rx="2"/>
+  <text x="60" y="276" font-family="Arial" font-size="10" fill="white">Solar Programs</text>
+  <text x="195" y="276" font-family="Arial" font-size="10" font-weight="bold" fill="#333">$800-900M/yr</text>
+  
+  <rect x="50" y="290" width="70" height="22" fill="#9b59b6" rx="2"/>
+  <text x="60" y="306" font-family="Arial" font-size="10" fill="white">RPS</text>
+  <text x="135" y="306" font-family="Arial" font-size="10" font-weight="bold" fill="#333">$400-500M/yr</text>
+  
+  <rect x="50" y="320" width="30" height="22" fill="#3498db" rx="2"/>
+  <text x="95" y="336" font-family="Arial" font-size="10" fill="#333">RGGI: $150-200M/yr</text>
+  
+  <!-- Inefficiency callout -->
+  <rect x="470" y="180" width="400" height="175" rx="6" fill="#e74c3c" opacity="0.08" stroke="#e74c3c" stroke-width="1"/>
+  <text x="670" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b">THE INEFFICIENCY</text>
+  
+  <text x="490" y="240" font-family="Arial" font-size="11" fill="#333">Mass Save cost per ton CO₂:</text>
+  <text x="850" y="240" text-anchor="end" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b">$250/ton</text>
+  
+  <text x="490" y="270" font-family="Arial" font-size="11" fill="#333">RGGI market price:</text>
+  <text x="850" y="270" text-anchor="end" font-family="Arial" font-size="12" font-weight="bold" fill="#27ae60">$21/ton</text>
+  
+  <text x="670" y="310" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">12× MORE EXPENSIVE</text>
+  <text x="670" y="335" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Same climate goals achievable at 1/12th the cost</text>
+  
+  <!-- Rate comparison -->
+  <rect x="30" y="375" width="840" height="85" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="450" y="400" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">STATE COMPARISON (¢/kWh)</text>
+  
+  <text x="130" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Pennsylvania</text>
+  <text x="130" y="455" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#27ae60">14.5¢</text>
+  
+  <text x="310" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Ohio</text>
+  <text x="310" y="455" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#27ae60">15.2¢</text>
+  
+  <text x="490" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">US Average</text>
+  <text x="490" y="455" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#3498db">17.5¢</text>
+  
+  <text x="670" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">New Hampshire</text>
+  <text x="670" y="455" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#f39c12">26.1¢</text>
+  
+  <text x="820" y="440" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">Massachusetts</text>
+  <text x="820" y="455" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">27.4¢</text>
+  
+  <!-- Solutions -->
+  <rect x="30" y="480" width="840" height="150" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="450" y="510" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1e8449">✓ SOLUTIONS</text>
+  
+  <text x="180" y="545" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Cap Mass Save at $1B</text>
+  <text x="180" y="565" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Save $500M/yr</text>
+  
+  <text x="380" y="545" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Consolidate solar programs</text>
+  <text x="380" y="565" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Save $300-400M/yr</text>
+  
+  <text x="580" y="545" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Reform RPS multipliers</text>
+  <text x="580" y="565" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Save $200-300M/yr</text>
+  
+  <text x="760" y="545" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Transparency + caps</text>
+  <text x="760" y="565" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Prevent future increases</text>
+  
+  <text x="450" y="600" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#27ae60">Total Potential Savings: $2-3 BILLION/year</text>
+  <text x="450" y="620" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">Your household saves: $600-900/year</text>
+</svg>
