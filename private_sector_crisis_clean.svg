@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <rect width="900" height="700" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2c3e50">PRIVATE SECTOR EMPLOYMENT CRISIS</text>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">Massachusetts: 3rd Worst Private Sector Growth in America | Source: BLS, Pioneer Institute May 2025</text>
+  
+  <!-- Big stats row -->
+  <rect x="30" y="75" width="200" height="85" rx="6" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="130" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">MA PRIVATE SECTOR</text>
+  <text x="130" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#c0392b">-0.74%</text>
+  <text x="130" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">since Jan 2020</text>
+  
+  <rect x="245" y="75" width="200" height="85" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="345" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e8449">FLORIDA</text>
+  <text x="345" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1e8449">+11.8%</text>
+  <text x="345" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">same period</text>
+  
+  <rect x="460" y="75" width="200" height="85" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="560" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e8449">TEXAS</text>
+  <text x="560" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1e8449">+10.9%</text>
+  <text x="560" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">same period</text>
+  
+  <rect x="675" y="75" width="195" height="85" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="772" y="100" text-anchor="middle" font-family="Arial" font-size="10" font-weight="bold" fill="#1e8449">NORTH CAROLINA</text>
+  <text x="772" y="130" text-anchor="middle" font-family="Arial" font-size="28" font-weight="bold" fill="#1e8449">+10.1%</text>
+  <text x="772" y="150" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">same period</text>
+  
+  <!-- State ranking -->
+  <rect x="30" y="180" width="420" height="155" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="240" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">WORST STATES FOR PRIVATE SECTOR GROWTH</text>
+  <text x="240" y="222" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Jan 2020 - March 2025</text>
+  
+  <text x="50" y="250" font-family="Arial" font-size="11" fill="#333">1. District of Columbia</text>
+  <text x="420" y="250" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">-5.39%</text>
+  
+  <text x="50" y="275" font-family="Arial" font-size="11" fill="#333">2. Hawaii</text>
+  <text x="420" y="275" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">-2.75%</text>
+  
+  <text x="50" y="300" font-family="Arial" font-size="11" fill="#333">3. Vermont</text>
+  <text x="420" y="300" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">-1.00%</text>
+  
+  <rect x="45" y="312" width="390" height="20" rx="3" fill="#c0392b" opacity="0.15"/>
+  <text x="50" y="327" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">4. MASSACHUSETTS</text>
+  <text x="420" y="327" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">-0.74%</text>
+  
+  <!-- Sector breakdown -->
+  <rect x="470" y="180" width="400" height="155" rx="6" fill="#c0392b" opacity="0.08" stroke="#c0392b" stroke-width="1"/>
+  <text x="670" y="205" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b">KEY SECTORS SHRINKING</text>
+  <text x="670" y="222" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Jan 2020 - March 2025</text>
+  
+  <text x="490" y="252" font-family="Arial" font-size="10" fill="#333">Retail Trade</text>
+  <rect x="620" y="240" width="115" height="16" fill="#c0392b" rx="2"/>
+  <text x="855" y="252" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-7.69%</text>
+  
+  <text x="490" y="277" font-family="Arial" font-size="10" fill="#333">Manufacturing</text>
+  <rect x="620" y="265" width="81" height="16" fill="#e74c3c" rx="2"/>
+  <text x="855" y="277" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-5.39%</text>
+  
+  <text x="490" y="302" font-family="Arial" font-size="10" fill="#333">Information</text>
+  <rect x="620" y="290" width="63" height="16" fill="#e67e22" rx="2"/>
+  <text x="855" y="302" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">-4.18%</text>
+  
+  <text x="490" y="327" font-family="Arial" font-size="10" fill="#333">Trade/Transport/Utilities</text>
+  <rect x="620" y="315" width="60" height="16" fill="#f39c12" rx="2"/>
+  <text x="855" y="327" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">-4.02%</text>
+  
+  <!-- Boston vs NC comparison -->
+  <rect x="30" y="355" width="840" height="120" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="450" y="380" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">TALE OF TWO REGIONS (Similar Size, Universities, Tech/Finance Industries)</text>
+  
+  <rect x="50" y="400" width="380" height="60" rx="4" fill="#c0392b" opacity="0.1" stroke="#c0392b"/>
+  <text x="240" y="420" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">BOSTON METRO AREA</text>
+  <text x="240" y="445" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#c0392b">-33,400 JOBS (-1.2%)</text>
+  
+  <rect x="470" y="400" width="380" height="60" rx="4" fill="#27ae60" opacity="0.1" stroke="#27ae60"/>
+  <text x="660" y="420" text-anchor="middle" font-family="Arial" font-size="11" font-weight="bold" fill="#1e8449">NC RESEARCH TRIANGLE + CHARLOTTE</text>
+  <text x="660" y="445" text-anchor="middle" font-family="Arial" font-size="18" font-weight="bold" fill="#1e8449">+254,900 JOBS (+11.2%)</text>
+  
+  <!-- Cost of living burden -->
+  <rect x="30" y="495" width="420" height="115" rx="6" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="1"/>
+  <text x="240" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#8e44ad">COST OF LIVING BURDEN (BLS Data)</text>
+  
+  <text x="50" y="550" font-family="Arial" font-size="10" fill="#333">Average Annual Expenditures:</text>
+  <text x="50" y="570" font-family="Arial" font-size="10" fill="#333">Boston: $101,247 vs US: $75,172</text>
+  <text x="400" y="560" text-anchor="end" font-family="Arial" font-size="14" font-weight="bold" fill="#8e44ad">+35% HIGHER</text>
+  
+  <text x="50" y="600" font-family="Arial" font-size="10" fill="#333">Housing Costs: $34,977 vs $24,868</text>
+  <text x="400" y="600" text-anchor="end" font-family="Arial" font-size="12" font-weight="bold" fill="#8e44ad">+41% HIGHER</text>
+  
+  <!-- Unemployment rising -->
+  <rect x="470" y="495" width="400" height="115" rx="6" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="1"/>
+  <text x="670" y="520" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#d35400">UNEMPLOYMENT RISING</text>
+  
+  <text x="490" y="550" font-family="Arial" font-size="10" fill="#333">Boston Area Jul 2024:</text>
+  <text x="660" y="550" font-family="Arial" font-size="12" font-weight="bold" fill="#333">4.2%</text>
+  
+  <text x="490" y="575" font-family="Arial" font-size="10" fill="#333">Boston Area Jul 2025:</text>
+  <text x="660" y="575" font-family="Arial" font-size="12" font-weight="bold" fill="#d35400">4.5%</text>
+  
+  <text x="490" y="600" font-family="Arial" font-size="10" fill="#333">Professional Services:</text>
+  <text x="850" y="600" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">-5,800 jobs (-1.1%)</text>
+  
+  <!-- Bottom warning -->
+  <rect x="30" y="625" width="840" height="55" rx="6" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="450" y="650" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c0392b">⚠ THE SPIRAL: High costs → Businesses leave → Fewer jobs → Workers leave → Tax base shrinks</text>
+  <text x="450" y="670" text-anchor="middle" font-family="Arial" font-size="11" fill="#333">Without reform: tax increases, regulatory streamlining, and housing expansion, Massachusetts risks continued decline</text>
+</svg>

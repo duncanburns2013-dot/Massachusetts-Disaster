@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1400">
+  <rect width="1000" height="1400" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" text-anchor="middle" font-family="Arial" font-size="24" font-weight="bold" fill="#c0392b">MASSACHUSETTS IN CRISIS</text>
+  <text x="500" y="65" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">The Complete Picture: Jobs, Taxes, Costs, Debt, and the Exodus</text>
+  <text x="500" y="82" text-anchor="middle" font-family="Arial" font-size="9" fill="#888">Sources: BLS, IRS, Pioneer Institute, EIA, MA ACFR, CHIA, DESE | Data through 2025</text>
+  
+  <!-- Section 1: The Headlines -->
+  <rect x="20" y="100" width="960" height="100" rx="8" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="500" y="125" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#c0392b">THE HEADLINES</text>
+  
+  <text x="125" y="155" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">PRIVATE SECTOR</text>
+  <text x="125" y="180" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#c0392b">-0.74%</text>
+  <text x="125" y="193" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">3rd worst in US</text>
+  
+  <text x="295" y="155" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">TAX FILERS LOST</text>
+  <text x="295" y="180" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#c0392b">86,382</text>
+  <text x="295" y="193" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">2018-2022</text>
+  
+  <text x="465" y="155" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">INCOME EXODUS</text>
+  <text x="465" y="180" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#c0392b">$12.14B</text>
+  <text x="465" y="193" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">AGI lost</text>
+  
+  <text x="635" y="155" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">TOTAL DEBT</text>
+  <text x="635" y="180" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#c0392b">$99B</text>
+  <text x="635" y="193" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">all categories</text>
+  
+  <text x="805" y="155" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">NET POSITION</text>
+  <text x="805" y="180" text-anchor="middle" font-family="Arial" font-size="22" font-weight="bold" fill="#c0392b">-$60.2B</text>
+  <text x="805" y="193" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">worst ever</text>
+  
+  <!-- Section 2: Jobs Crisis -->
+  <rect x="20" y="215" width="470" height="200" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="255" y="240" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#2c3e50">💼 JOBS CRISIS</text>
+  
+  <text x="40" y="270" font-family="Arial" font-size="10" fill="#333">Private sector growth (Jan 2020-Mar 2025):</text>
+  <text x="460" y="270" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-0.74%</text>
+  
+  <text x="40" y="290" font-family="Arial" font-size="10" fill="#333">Boston Metro jobs lost:</text>
+  <text x="460" y="290" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-33,400</text>
+  
+  <text x="40" y="310" font-family="Arial" font-size="10" fill="#333">Professional services (YoY):</text>
+  <text x="460" y="310" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-5,800 (-1.1%)</text>
+  
+  <text x="40" y="330" font-family="Arial" font-size="10" fill="#333">Retail trade since 2020:</text>
+  <text x="460" y="330" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-7.69%</text>
+  
+  <text x="40" y="350" font-family="Arial" font-size="10" fill="#333">Manufacturing since 2020:</text>
+  <text x="460" y="350" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-5.39%</text>
+  
+  <text x="40" y="370" font-family="Arial" font-size="10" fill="#333">Information sector since 2020:</text>
+  <text x="460" y="370" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-4.18%</text>
+  
+  <text x="40" y="400" font-family="Arial" font-size="9" fill="#27ae60">Meanwhile: FL +11.8%, TX +10.9%, NC +10.1%</text>
+  
+  <!-- Section 2b: Migration Crisis -->
+  <rect x="510" y="215" width="470" height="200" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="745" y="240" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#2c3e50">✈️ MIGRATION EXODUS</text>
+  
+  <text x="530" y="270" font-family="Arial" font-size="10" fill="#333">Net tax filers lost (2018-2022):</text>
+  <text x="950" y="270" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-86,382</text>
+  
+  <text x="530" y="290" font-family="Arial" font-size="10" fill="#333">Adjusted Gross Income lost:</text>
+  <text x="950" y="290" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">$12.14 billion</text>
+  
+  <text x="530" y="310" font-family="Arial" font-size="10" fill="#333">Estimated tax revenue lost:</text>
+  <text x="950" y="310" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">$607 million/yr</text>
+  
+  <text x="530" y="330" font-family="Arial" font-size="10" fill="#333">Acceleration 2019-2022:</text>
+  <text x="950" y="330" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">+75%</text>
+  
+  <text x="530" y="360" font-family="Arial" font-size="10" fill="#555">Top destinations (0% income tax):</text>
+  <text x="530" y="380" font-family="Arial" font-size="10" fill="#333">Florida: 13,106 | NH: 9,542 | Texas: 3,627</text>
+  
+  <text x="530" y="400" font-family="Arial" font-size="9" fill="#888">Leavers avg income: $109,902 vs Arrivers: $100,920</text>
+  
+  <!-- Section 3: Cost Crisis -->
+  <rect x="20" y="430" width="470" height="200" rx="6" fill="#f39c12" opacity="0.08" stroke="#f39c12"/>
+  <text x="255" y="455" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#d35400">💰 COST OF LIVING CRISIS</text>
+  
+  <text x="40" y="485" font-family="Arial" font-size="10" fill="#333">Avg annual expenditures:</text>
+  <text x="460" y="485" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">$101,247 (+35% vs US)</text>
+  
+  <text x="40" y="505" font-family="Arial" font-size="10" fill="#333">Housing costs:</text>
+  <text x="460" y="505" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">$34,977 (+41% vs US)</text>
+  
+  <text x="40" y="525" font-family="Arial" font-size="10" fill="#333">Electricity rate:</text>
+  <text x="460" y="525" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">27.4¢/kWh (+57% vs US)</text>
+  
+  <text x="40" y="545" font-family="Arial" font-size="10" fill="#333">Electricity policy mandates:</text>
+  <text x="460" y="545" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">$4.4 billion/year</text>
+  
+  <text x="40" y="565" font-family="Arial" font-size="10" fill="#333">Extra electricity cost/household:</text>
+  <text x="460" y="565" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">$1,188/year</text>
+  
+  <text x="40" y="585" font-family="Arial" font-size="10" fill="#333">Healthcare per capita:</text>
+  <text x="460" y="585" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">$11,153 (#1 in US)</text>
+  
+  <text x="40" y="615" font-family="Arial" font-size="9" fill="#888">Income needed for "affordable" home: $116,000+</text>
+  
+  <!-- Section 3b: Debt Crisis -->
+  <rect x="510" y="430" width="470" height="200" rx="6" fill="#9b59b6" opacity="0.08" stroke="#9b59b6"/>
+  <text x="745" y="455" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#8e44ad">📉 DEBT CRISIS</text>
+  
+  <text x="530" y="485" font-family="Arial" font-size="10" fill="#333">Pension unfunded liability:</text>
+  <text x="950" y="485" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">$42.1 billion</text>
+  
+  <text x="530" y="505" font-family="Arial" font-size="10" fill="#333">Bonded debt:</text>
+  <text x="950" y="505" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">$37.8 billion</text>
+  
+  <text x="530" y="525" font-family="Arial" font-size="10" fill="#333">OPEB (retiree healthcare):</text>
+  <text x="950" y="525" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">$13.7 billion</text>
+  
+  <text x="530" y="545" font-family="Arial" font-size="10" fill="#333">MBTA debt:</text>
+  <text x="950" y="545" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">$5.4 billion</text>
+  
+  <text x="530" y="575" font-family="Arial" font-size="11" font-weight="bold" fill="#333">TOTAL:</text>
+  <text x="950" y="575" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#8e44ad">$99.0 BILLION</text>
+  
+  <text x="530" y="600" font-family="Arial" font-size="10" fill="#333">Per household debt:</text>
+  <text x="950" y="600" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#8e44ad">$37,363</text>
+  
+  <text x="530" y="620" font-family="Arial" font-size="9" fill="#888">Net position declined $20.6B in just 2 years (FY22-24)</text>
+  
+  <!-- Section 4: Non-Citizen Costs -->
+  <rect x="20" y="645" width="470" height="170" rx="6" fill="#e74c3c" opacity="0.08" stroke="#e74c3c"/>
+  <text x="255" y="670" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c0392b">🏠 NON-CITIZEN COSTS</text>
+  
+  <text x="40" y="700" font-family="Arial" font-size="10" fill="#333">Non-citizen population:</text>
+  <text x="460" y="700" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">641,080 (9% of state)</text>
+  
+  <text x="40" y="720" font-family="Arial" font-size="10" fill="#333">Estimated unauthorized:</text>
+  <text x="460" y="720" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">~275,000</text>
+  
+  <text x="40" y="740" font-family="Arial" font-size="10" fill="#333">Annual cost to taxpayers:</text>
+  <text x="460" y="740" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">$2.9 billion</text>
+  
+  <text x="40" y="760" font-family="Arial" font-size="10" fill="#333">Emergency shelter crisis:</text>
+  <text x="460" y="760" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">$1B+/year (3× pre-crisis)</text>
+  
+  <text x="40" y="780" font-family="Arial" font-size="10" fill="#333">Cost per household:</text>
+  <text x="460" y="780" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">$1,094/year</text>
+  
+  <text x="40" y="805" font-family="Arial" font-size="9" fill="#888">Includes: $575M+ education, $1B+ shelter, $800M+ healthcare</text>
+  
+  <!-- Section 4b: Education & Services -->
+  <rect x="510" y="645" width="470" height="170" rx="6" fill="#3498db" opacity="0.08" stroke="#3498db"/>
+  <text x="745" y="670" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#2980b9">📚 SPENDING VS RESULTS</text>
+  
+  <text x="530" y="700" font-family="Arial" font-size="10" fill="#333">Education spending:</text>
+  <text x="950" y="700" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#2980b9">$21.7 billion</text>
+  
+  <text x="530" y="720" font-family="Arial" font-size="10" fill="#333">Per pupil (#5 highest in US):</text>
+  <text x="950" y="720" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#2980b9">$21,756</text>
+  
+  <text x="530" y="740" font-family="Arial" font-size="10" fill="#333">Spending increase since 2014:</text>
+  <text x="950" y="740" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#27ae60">+67%</text>
+  
+  <text x="530" y="760" font-family="Arial" font-size="10" fill="#333">MCAS proficiency (meeting expectations):</text>
+  <text x="950" y="760" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">39%</text>
+  
+  <text x="530" y="780" font-family="Arial" font-size="10" fill="#333">Results trend:</text>
+  <text x="950" y="780" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#c0392b">-11% (declining)</text>
+  
+  <text x="530" y="805" font-family="Arial" font-size="9" fill="#888">More money ≠ better outcomes | MassHealth: 2.3M enrolled (33% of state)</text>
+  
+  <!-- Section 5: Your Burden -->
+  <rect x="20" y="830" width="960" height="150" rx="6" fill="#2c3e50" opacity="0.08" stroke="#2c3e50" stroke-width="2"/>
+  <text x="500" y="855" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="#2c3e50">💸 YOUR ANNUAL BURDEN (Per Household)</text>
+  
+  <!-- Annual costs -->
+  <text x="120" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">HEALTHCARE</text>
+  <text x="120" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$27,840</text>
+  
+  <text x="260" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">PROPERTY TAX</text>
+  <text x="260" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$10,585</text>
+  
+  <text x="400" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">INCOME TAX</text>
+  <text x="400" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$6,500</text>
+  
+  <text x="540" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">SALES/FEES</text>
+  <text x="540" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$5,200</text>
+  
+  <text x="680" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">ELECTRICITY</text>
+  <text x="680" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$1,188</text>
+  
+  <text x="820" y="890" text-anchor="middle" font-family="Arial" font-size="9" fill="#555">NON-CITIZEN</text>
+  <text x="820" y="910" text-anchor="middle" font-family="Arial" font-size="16" font-weight="bold" fill="#c0392b">$1,094</text>
+  
+  <line x1="50" y1="935" x2="950" y2="935" stroke="#2c3e50" stroke-width="1"/>
+  
+  <text x="500" y="960" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#2c3e50">TOTAL ANNUAL BURDEN: $52,407+ | DEBT SHARE: $37,363 | GRAND TOTAL: $89,770 PER HOUSEHOLD</text>
+  
+  <!-- Section 6: The Spiral -->
+  <rect x="20" y="995" width="470" height="140" rx="6" fill="#c0392b" opacity="0.12" stroke="#c0392b" stroke-width="2"/>
+  <text x="255" y="1025" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c0392b">🔄 THE DEATH SPIRAL</text>
+  
+  <text x="255" y="1055" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">High Costs + High Taxes</text>
+  <text x="255" y="1075" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">↓</text>
+  <text x="255" y="1090" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Businesses &amp; Workers Leave</text>
+  <text x="255" y="1105" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">↓</text>
+  <text x="255" y="1120" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">Tax Base Shrinks → Higher Taxes on Remaining → Repeat</text>
+  
+  <!-- Section 6b: Solutions -->
+  <rect x="510" y="995" width="470" height="140" rx="6" fill="#27ae60" opacity="0.12" stroke="#27ae60" stroke-width="2"/>
+  <text x="745" y="1025" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1e8449">✅ SOLUTIONS: $5.2-6.0B ANNUAL SAVINGS</text>
+  
+  <text x="530" y="1055" font-family="Arial" font-size="9" fill="#333">• Electricity reform: $2.0-3.0B</text>
+  <text x="530" y="1075" font-family="Arial" font-size="9" fill="#333">• Healthcare verification: $800M</text>
+  <text x="530" y="1095" font-family="Arial" font-size="9" fill="#333">• Shelter reform: $640-700M</text>
+  <text x="530" y="1115" font-family="Arial" font-size="9" fill="#333">• Pension reform: $500M (long-term)</text>
+  
+  <text x="745" y="1055" font-family="Arial" font-size="9" fill="#333">• Education consolidation: $400M</text>
+  <text x="745" y="1075" font-family="Arial" font-size="9" fill="#333">• Procurement reform: $300M</text>
+  <text x="745" y="1095" font-family="Arial" font-size="9" fill="#333">• Overtime crackdown: $200M</text>
+  <text x="745" y="1115" font-family="Arial" font-size="9" fill="#333">• MBTA + Workforce: $350M</text>
+  
+  <!-- Section 7: Two Futures -->
+  <rect x="20" y="1150" width="470" height="120" rx="6" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="255" y="1180" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c0392b">❌ WITHOUT REFORM</text>
+  <text x="255" y="1210" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Continued exodus of jobs &amp; workers</text>
+  <text x="255" y="1230" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Higher taxes on shrinking base</text>
+  <text x="255" y="1250" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Possible loss of Congressional seat</text>
+  <text x="255" y="1270" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Declining services, rising debt</text>
+  
+  <rect x="510" y="1150" width="470" height="120" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="745" y="1180" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#1e8449">✅ WITH REFORM</text>
+  <text x="745" y="1210" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Save $1,960-2,265 per household/year</text>
+  <text x="745" y="1230" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Stabilize tax base, stop exodus</text>
+  <text x="745" y="1250" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Maintain services without new taxes</text>
+  <text x="745" y="1270" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">• Become competitive again</text>
+  
+  <!-- Bottom line -->
+  <rect x="20" y="1285" width="960" height="50" rx="6" fill="#2c3e50"/>
+  <text x="500" y="1315" text-anchor="middle" font-family="Arial" font-size="14" font-weight="bold" fill="white">THE CHOICE IS CLEAR: REFORM NOW OR DECLINE FOREVER</text>
+  <text x="500" y="1330" text-anchor="middle" font-family="Arial" font-size="10" fill="#bdc3c7">Data compiled from official government sources | Contact your legislators | Demand accountability</text>
+  
+  <!-- Footer -->
+  <text x="500" y="1380" text-anchor="middle" font-family="Arial" font-size="8" fill="#888">Massachusetts Taxpayer Analysis | Sources: MA ACFR FY2024, IRS SOI Migration Data, BLS CES, Pioneer Institute, EIA, CHIA, DESE, PERAC</text>
+</svg>
