@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650">
+  <defs>
+    <linearGradient id="moneyGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+    <linearGradient id="failGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="650" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Education: $21.7 Billion Spent, Results Declining</text>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Massachusetts spends among the highest per-pupil in the nation</text>
+  
+  <!-- Left panel - Spending -->
+  <rect x="50" y="80" width="380" height="250" fill="white" rx="10" stroke="#ddd" stroke-width="2"/>
+  <text x="240" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#27ae60">💰 SPENDING (FY2023)</text>
+  
+  <text x="240" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#27ae60">$21.7B</text>
+  <text x="240" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Total K-12 Education Spending</text>
+  
+  <line x1="80" y1="195" x2="400" y2="195" stroke="#eee" stroke-width="2"/>
+  
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Average Per-Pupil:</text>
+  <text x="350" y="220" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27ae60">$21,765</text>
+  
+  <text x="100" y="245" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Boston Per-Pupil:</text>
+  <text x="350" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27ae60">$31,883</text>
+  
+  <text x="100" y="270" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Cambridge Per-Pupil:</text>
+  <text x="350" y="270" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27ae60">$38,933</text>
+  
+  <text x="100" y="295" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Total Students:</text>
+  <text x="350" y="295" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">998,731</text>
+  
+  <!-- Right panel - Outcomes -->
+  <rect x="470" y="80" width="380" height="250" fill="white" rx="10" stroke="#ddd" stroke-width="2"/>
+  <text x="660" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">📉 OUTCOMES (MCAS 2024)</text>
+  
+  <text x="660" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e74c3c">39%</text>
+  <text x="660" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Grades 3-8 Passing Rate (ELA)</text>
+  
+  <line x1="500" y1="200" x2="820" y2="200" stroke="#eee" stroke-width="2"/>
+  
+  <text x="520" y="225" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">2019 Passing Rate:</text>
+  <text x="770" y="225" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27ae60">52%</text>
+  
+  <text x="520" y="250" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">2024 Passing Rate:</text>
+  <text x="770" y="250" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">39%</text>
+  
+  <text x="520" y="275" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">DECLINE:</text>
+  <text x="770" y="275" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">-13 POINTS</text>
+  
+  <text x="520" y="300" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Chronic Absenteeism:</text>
+  <text x="770" y="300" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">19.5%</text>
+  
+  <!-- MCAS Trend Chart -->
+  <rect x="50" y="350" width="800" height="200" fill="white" rx="10" stroke="#ddd" stroke-width="2"/>
+  <text x="450" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">MCAS Passing Rates - Grades 3-8 (2019 vs 2024)</text>
+  
+  <!-- Chart bars -->
+  <!-- ELA 2019: 52% -->
+  <rect x="120" y="400" width="80" height="104" fill="#27ae60" rx="4"/>
+  <text x="160" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">52%</text>
+  
+  <!-- ELA 2024: 39% -->
+  <rect x="210" y="426" width="80" height="78" fill="#e74c3c" rx="4"/>
+  <text x="250" y="421" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">39%</text>
+  
+  <text x="185" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">ELA</text>
+  <text x="185" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">(-13 pts)</text>
+  
+  <!-- Math 2019: 49% -->
+  <rect x="340" y="406" width="80" height="98" fill="#27ae60" rx="4"/>
+  <text x="380" y="401" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">49%</text>
+  
+  <!-- Math 2024: 41% -->
+  <rect x="430" y="422" width="80" height="82" fill="#e74c3c" rx="4"/>
+  <text x="470" y="417" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">41%</text>
+  
+  <text x="405" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">MATH</text>
+  <text x="405" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">(-8 pts)</text>
+  
+  <!-- Grade 10 ELA -->
+  <rect x="560" y="426" width="80" height="122" fill="#27ae60" rx="4"/>
+  <text x="600" y="421" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#27ae60">61%</text>
+  
+  <rect x="650" y="390" width="80" height="114" fill="#f39c12" rx="4"/>
+  <text x="690" y="385" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">57%</text>
+  
+  <text x="625" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Gr. 10 ELA</text>
+  <text x="625" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">(-4 pts)</text>
+  
+  <!-- Legend -->
+  <rect x="740" y="400" width="15" height="15" fill="#27ae60"/>
+  <text x="760" y="412" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">2019</text>
+  
+  <rect x="740" y="425" width="15" height="15" fill="#e74c3c"/>
+  <text x="760" y="437" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">2024</text>
+  
+  <!-- Bottom callout -->
+  <rect x="150" y="570" width="600" height="60" rx="10" fill="#e74c3c"/>
+  <text x="450" y="598" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">61% of students in grades 3-8 are NOT meeting standards</text>
+  <text x="450" y="618" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">21 districts flagged for state intervention</text>
+  
+  <!-- Source -->
+  <text x="450" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">Sources: DESE Per-Pupil Expenditure Data FY2023, MCAS Results Spring 2024</text>
+</svg>

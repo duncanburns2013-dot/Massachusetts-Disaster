@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="doomGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#7f1d1d"/>
+    </linearGradient>
+    <linearGradient id="hopeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#145a32"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="1200" height="900" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="600" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">TWO FUTURES FOR MASSACHUSETTS</text>
+  <text x="600" y="75" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#bdc3c7">The choice is yours. The data is clear.</text>
+  
+  <!-- LEFT SIDE: Current Path (Red/Doom) -->
+  <rect x="30" y="95" width="555" height="780" rx="15" fill="url(#doomGrad)" opacity="0.9"/>
+  <text x="307" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">🔥 CURRENT PATH</text>
+  <text x="307" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f5b7b1">"Stay the Course" = Collapse</text>
+  
+  <!-- Current: Debt -->
+  <rect x="50" y="180" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">💸 DEBT SPIRAL</text>
+  <text x="70" y="225" font-family="Arial, sans-serif" font-size="12" fill="white">Net deficit: $60.2B → $80B+ by 2030</text>
+  <text x="70" y="242" font-family="Arial, sans-serif" font-size="12" fill="white">Pension unfunded: $42B → $55B+ by 2030</text>
+  <text x="70" y="259" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Per household debt: $40,599 → $55,000+</text>
+  
+  <!-- Current: Taxes -->
+  <rect x="50" y="275" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">📈 TAX INCREASES INEVITABLE</text>
+  <text x="70" y="320" font-family="Arial, sans-serif" font-size="12" fill="white">Millionaire tax passed: 4% surtax on $1M+</text>
+  <text x="70" y="337" font-family="Arial, sans-serif" font-size="12" fill="white">Property taxes: Already $10,585 avg, rising 5%/yr</text>
+  <text x="70" y="354" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Next: Sales tax hike? Income tax increase?</text>
+  
+  <!-- Current: Migration -->
+  <rect x="50" y="370" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🚗 EXODUS ACCELERATES</text>
+  <text x="70" y="415" font-family="Arial, sans-serif" font-size="12" fill="white">153,080 left (2018-22) → 250,000+ by 2028</text>
+  <text x="70" y="432" font-family="Arial, sans-serif" font-size="12" fill="white">$12.2B AGI lost → $25B+ by 2028</text>
+  <text x="70" y="449" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Leavers earn 5.8% MORE = brain drain</text>
+  
+  <!-- Current: Services -->
+  <rect x="50" y="465" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="490" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">📉 SERVICES DETERIORATE</text>
+  <text x="70" y="510" font-family="Arial, sans-serif" font-size="12" fill="white">MCAS passing: 39% → 30%? (spending up, results down)</text>
+  <text x="70" y="527" font-family="Arial, sans-serif" font-size="12" fill="white">MBTA: Slow zones, delays, safety issues continue</text>
+  <text x="70" y="544" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">More money, worse outcomes = structural failure</text>
+  
+  <!-- Current: Housing -->
+  <rect x="50" y="560" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🏠 HOUSING UNAFFORDABLE</text>
+  <text x="70" y="605" font-family="Arial, sans-serif" font-size="12" fill="white">Avg home: $858K → $1M+ by 2028</text>
+  <text x="70" y="622" font-family="Arial, sans-serif" font-size="12" fill="white">Income needed: $195K → $230K+ household</text>
+  <text x="70" y="639" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">Young families priced out = population decline</text>
+  
+  <!-- Current: Shelter -->
+  <rect x="50" y="655" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="70" y="680" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🏨 SHELTER COSTS EXPLODE</text>
+  <text x="70" y="700" font-family="Arial, sans-serif" font-size="12" fill="white">Current: $1B+/year (was $324M pre-crisis)</text>
+  <text x="70" y="717" font-family="Arial, sans-serif" font-size="12" fill="white">Right-to-shelter = unlimited liability</text>
+  <text x="70" y="734" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">MA is ONLY state with this mandate</text>
+  
+  <!-- Current: Bottom line -->
+  <rect x="50" y="750" width="515" height="55" rx="8" fill="#7f1d1d"/>
+  <text x="307" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2030 REALITY CHECK</text>
+  <text x="307" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#f5b7b1">Detroit-style decline • Service cuts • Tax hikes • More exodus</text>
+  
+  <!-- RIGHT SIDE: Reform Path (Green/Hope) -->
+  <rect x="615" y="95" width="555" height="780" rx="15" fill="url(#hopeGrad)" opacity="0.9"/>
+  <text x="892" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">✅ REFORM PATH</text>
+  <text x="892" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#abebc6">$3.5B+ Savings = No New Taxes</text>
+  
+  <!-- Reform: Debt -->
+  <rect x="635" y="180" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="205" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">💰 DEBT STABILIZED</text>
+  <text x="655" y="225" font-family="Arial, sans-serif" font-size="12" fill="white">Net deficit: Freeze at $60B, then reduce</text>
+  <text x="655" y="242" font-family="Arial, sans-serif" font-size="12" fill="white">Pension: Hybrid plan stops bleeding for new hires</text>
+  <text x="655" y="259" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">Per household: Stabilize, then reduce to $35K</text>
+  
+  <!-- Reform: Taxes -->
+  <rect x="635" y="275" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="300" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">📉 NO TAX INCREASES NEEDED</text>
+  <text x="655" y="320" font-family="Arial, sans-serif" font-size="12" fill="white">$3.5B savings = no new taxes required</text>
+  <text x="655" y="337" font-family="Arial, sans-serif" font-size="12" fill="white">Property tax relief possible in high-burden towns</text>
+  <text x="655" y="354" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">Competitive with NH, FL on total burden</text>
+  
+  <!-- Reform: Migration -->
+  <rect x="635" y="370" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="395" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🏠 EXODUS REVERSED</text>
+  <text x="655" y="415" font-family="Arial, sans-serif" font-size="12" fill="white">Stop the bleeding: Net-zero migration by 2027</text>
+  <text x="655" y="432" font-family="Arial, sans-serif" font-size="12" fill="white">Attract business with stable, predictable taxes</text>
+  <text x="655" y="449" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">Keep high earners = keep tax base</text>
+  
+  <!-- Reform: Services -->
+  <rect x="635" y="465" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="490" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">📈 SERVICES IMPROVE</text>
+  <text x="655" y="510" font-family="Arial, sans-serif" font-size="12" fill="white">Education: Consolidate, cut admin, fund classrooms</text>
+  <text x="655" y="527" font-family="Arial, sans-serif" font-size="12" fill="white">MBTA: Performance contracts, overtime caps</text>
+  <text x="655" y="544" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">Same or less money, better outcomes</text>
+  
+  <!-- Reform: Housing -->
+  <rect x="635" y="560" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="585" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🏗️ HOUSING ADDRESSED</text>
+  <text x="655" y="605" font-family="Arial, sans-serif" font-size="12" fill="white">Zoning reform: More housing = lower prices</text>
+  <text x="655" y="622" font-family="Arial, sans-serif" font-size="12" fill="white">Permit streamlining: Build faster, cheaper</text>
+  <text x="655" y="639" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">Young families can afford to stay</text>
+  
+  <!-- Reform: Shelter -->
+  <rect x="635" y="655" width="515" height="85" rx="8" fill="rgba(0,0,0,0.3)"/>
+  <text x="655" y="680" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">🎯 SHELTER SUSTAINABLE</text>
+  <text x="655" y="700" font-family="Arial, sans-serif" font-size="12" fill="white">Limit to MA residents, enforce time limits</text>
+  <text x="655" y="717" font-family="Arial, sans-serif" font-size="12" fill="white">Work requirements for able-bodied adults</text>
+  <text x="655" y="734" font-family="Arial, sans-serif" font-size="12" fill="#2ecc71">$300M/year (pre-crisis level) = $700M saved</text>
+  
+  <!-- Reform: Bottom line -->
+  <rect x="635" y="750" width="515" height="55" rx="8" fill="#145a32"/>
+  <text x="892" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2030 REALITY CHECK</text>
+  <text x="892" y="795" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#abebc6">Stable finances • Better services • No new taxes • Population growth</text>
+  
+  <!-- Bottom comparison -->
+  <rect x="200" y="825" width="350" height="35" rx="5" fill="#c0392b"/>
+  <text x="375" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">CURRENT: +$25B more debt by 2030</text>
+  
+  <rect x="650" y="825" width="350" height="35" rx="5" fill="#27ae60"/>
+  <text x="825" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">REFORM: $1,500/household/year SAVED</text>
+  
+  <!-- Arrow -->
+  <text x="600" y="848" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="white">→</text>
+  
+</svg>

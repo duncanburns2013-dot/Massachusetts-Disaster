@@ -1,0 +1,145 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 550">
+  <defs>
+    <style>
+      .title { font: bold 20px Arial; fill: #1a1a1a; }
+      .subtitle { font: 12px Arial; fill: #666; }
+      .label { font: 11px Arial; fill: #333; }
+      .value { font: bold 11px Arial; fill: #333; }
+      .venue { font: 11px Arial; fill: #1a1a1a; }
+      .politicians { font: 9px Arial; fill: #666; font-style: italic; }
+    </style>
+  </defs>
+  
+  <rect width="800" height="550" fill="#fafafa"/>
+  
+  <text x="400" y="30" text-anchor="middle" class="title">Top Venues: Where Campaign Funds Are Spent</text>
+  <text x="400" y="48" text-anchor="middle" class="subtitle">Restaurants, Clubs &amp; Entertainment | Source: OCPF Campaign Finance Reports</text>
+  
+  <g transform="translate(30, 70)">
+    <!-- Headers -->
+    <text x="0" y="0" class="label" style="font-weight:bold">Venue</text>
+    <text x="280" y="0" class="label" style="font-weight:bold">Total</text>
+    <text x="350" y="0" class="label" style="font-weight:bold">Visits</text>
+    <text x="400" y="0" class="label" style="font-weight:bold">Politicians</text>
+    
+    <!-- UMass Club (combined) -->
+    <g transform="translate(0, 25)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fef3c7" rx="4"/>
+      <text x="0" y="5" class="venue" style="font-weight:bold">🏛️ UMass Club (Boston)</text>
+      <text x="280" y="5" class="value">$163,777</text>
+      <text x="350" y="5" class="label">66+ visits</text>
+      <text x="400" y="5" class="politicians">Mariano, Healey, Spilka, Hogan, Finegold, Cyr, Roy...</text>
+    </g>
+    
+    <!-- Ruth's Chris -->
+    <g transform="translate(0, 58)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fee2e2" rx="4"/>
+      <text x="0" y="5" class="venue">🥩 Ruth's Chris Steakhouse</text>
+      <text x="280" y="5" class="value">$45,642</text>
+      <text x="350" y="5" class="label">40+ visits</text>
+      <text x="400" y="5" class="politicians">Mariano, Gregoire, Healey, Lovely, Moran...</text>
+    </g>
+    
+    <!-- Omni Parker House -->
+    <g transform="translate(0, 91)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#dbeafe" rx="4"/>
+      <text x="0" y="5" class="venue">🏨 Omni Parker House</text>
+      <text x="280" y="5" class="value">$38,657</text>
+      <text x="350" y="5" class="label">13 visits</text>
+      <text x="400" y="5" class="politicians">Mariano, Spilka, Healey, Wu...</text>
+    </g>
+    
+    <!-- Carrie Nation -->
+    <g transform="translate(0, 124)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#dcfce7" rx="4"/>
+      <text x="0" y="5" class="venue">🍸 Carrie Nation Restaurant</text>
+      <text x="280" y="5" class="value">$35,219</text>
+      <text x="350" y="5" class="label">60+ visits</text>
+      <text x="400" y="5" class="politicians">Mariano, DiDomenico, Cyr, Hogan, Gregoire, Moran...</text>
+    </g>
+    
+    <!-- Union Club of Boston -->
+    <g transform="translate(0, 157)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fef3c7" rx="4"/>
+      <text x="0" y="5" class="venue">🏛️ Union Club of Boston</text>
+      <text x="280" y="5" class="value">$20,112</text>
+      <text x="350" y="5" class="label">10 visits</text>
+      <text x="400" y="5" class="politicians">Healey, Moran, Spilka...</text>
+    </g>
+    
+    <!-- Silver Fox -->
+    <g transform="translate(0, 190)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fee2e2" rx="4"/>
+      <text x="0" y="5" class="venue">🍽️ Silver Fox Restaurant</text>
+      <text x="280" y="5" class="value">$25,000</text>
+      <text x="350" y="5" class="label">6 visits</text>
+      <text x="400" y="5" class="politicians">DiDomenico</text>
+    </g>
+    
+    <!-- Corrib Pub -->
+    <g transform="translate(0, 223)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#dcfce7" rx="4"/>
+      <text x="0" y="5" class="venue">🍺 Corrib Pub (Brighton)</text>
+      <text x="280" y="5" class="value">$22,731</text>
+      <text x="350" y="5" class="label">69 visits</text>
+      <text x="400" y="5" class="politicians">Moran, Rush...</text>
+    </g>
+    
+    <!-- Stockyard -->
+    <g transform="translate(0, 256)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fee2e2" rx="4"/>
+      <text x="0" y="5" class="venue">🥩 The Stockyard (Brighton)</text>
+      <text x="280" y="5" class="value">$52,809</text>
+      <text x="350" y="5" class="label">15 visits</text>
+      <text x="400" y="5" class="politicians">Moran...</text>
+    </g>
+    
+    <!-- TD Garden -->
+    <g transform="translate(0, 289)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#e0e7ff" rx="4"/>
+      <text x="0" y="5" class="venue">🏟️ TD Garden Box Office</text>
+      <text x="280" y="5" class="value">$8,600</text>
+      <text x="350" y="5" class="label">4 visits</text>
+      <text x="400" y="5" class="politicians">Moran...</text>
+    </g>
+    
+    <!-- Red Sox -->
+    <g transform="translate(0, 322)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#e0e7ff" rx="4"/>
+      <text x="0" y="5" class="venue">⚾ Red Sox Tickets</text>
+      <text x="280" y="5" class="value">$13,482</text>
+      <text x="350" y="5" class="label">10 visits</text>
+      <text x="400" y="5" class="politicians">DiDomenico, Healey, Rush...</text>
+    </g>
+    
+    <!-- Capital Grille -->
+    <g transform="translate(0, 355)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#fee2e2" rx="4"/>
+      <text x="0" y="5" class="venue">🥩 Capital Grille</text>
+      <text x="280" y="5" class="value">$14,613</text>
+      <text x="350" y="5" class="label">8 visits</text>
+      <text x="400" y="5" class="politicians">Healey, Mariano, Moran...</text>
+    </g>
+    
+    <!-- City Winery -->
+    <g transform="translate(0, 388)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#f3e8ff" rx="4"/>
+      <text x="0" y="5" class="venue">🍷 City Winery Boston</text>
+      <text x="280" y="5" class="value">$137,278</text>
+      <text x="350" y="5" class="label">7 visits</text>
+      <text x="400" y="5" class="politicians">Spilka, Healey...</text>
+    </g>
+    
+    <!-- Kowloon -->
+    <g transform="translate(0, 421)">
+      <rect x="-5" y="-12" width="760" height="28" fill="#dcfce7" rx="4"/>
+      <text x="0" y="5" class="venue">🍜 Kowloon Restaurant (Saugus)</text>
+      <text x="280" y="5" class="value">$13,334</text>
+      <text x="350" y="5" class="label">10 visits</text>
+      <text x="400" y="5" class="politicians">DiDomenico...</text>
+    </g>
+  </g>
+  
+  <!-- Note -->
+  <text x="400" y="530" text-anchor="middle" class="subtitle">Note: Campaign funds used for "political future enhancement" - legal under MA law</text>
+</svg>

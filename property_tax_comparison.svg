@@ -1,0 +1,157 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750">
+  <defs>
+    <linearGradient id="highTaxGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#e74c3c"/>
+    </linearGradient>
+    <linearGradient id="lowTaxGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="750" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Massachusetts Property Tax: Tale of Two States</text>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Tax on $858,380 median home varies by $16,000+ depending on location</text>
+  
+  <!-- Stats boxes -->
+  <rect x="100" y="75" width="200" height="60" rx="8" fill="#3498db"/>
+  <text x="200" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Average Tax Bill</text>
+  <text x="200" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$10,585/yr</text>
+  
+  <rect x="350" y="75" width="200" height="60" rx="8" fill="#9b59b6"/>
+  <text x="450" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Median Tax Bill</text>
+  <text x="450" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$10,854/yr</text>
+  
+  <rect x="600" y="75" width="200" height="60" rx="8" fill="#e74c3c"/>
+  <text x="700" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Range (High - Low)</text>
+  <text x="700" y="122" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$16,198</text>
+  
+  <!-- Highest taxes section -->
+  <rect x="50" y="155" width="390" height="270" fill="white" rx="10" stroke="#e74c3c" stroke-width="2"/>
+  <rect x="50" y="155" width="390" height="35" fill="#e74c3c" rx="10"/>
+  <rect x="50" y="175" width="390" height="15" fill="#e74c3c"/>
+  <text x="245" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🔥 HIGHEST TAX BILLS (on $858K home)</text>
+  
+  <!-- High tax bars -->
+  <text x="60" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Longmeadow</text>
+  <rect x="150" y="200" width="237" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="395" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$18,129</text>
+  
+  <text x="60" y="243" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Wendell</text>
+  <rect x="150" y="228" width="235" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="393" y="243" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$17,983</text>
+  
+  <text x="60" y="271" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Westhampton</text>
+  <rect x="150" y="256" width="233" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="391" y="271" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$17,846</text>
+  
+  <text x="60" y="299" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Greenfield</text>
+  <rect x="150" y="284" width="219" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="377" y="299" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$16,790</text>
+  
+  <text x="60" y="327" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Williamsburg</text>
+  <rect x="150" y="312" width="213" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="371" y="327" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$16,283</text>
+  
+  <text x="60" y="355" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Heath</text>
+  <rect x="150" y="340" width="211" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="369" y="355" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$16,146</text>
+  
+  <text x="60" y="383" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">E. Longmeadow</text>
+  <rect x="150" y="368" width="207" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="365" y="383" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$15,863</text>
+  
+  <text x="60" y="411" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Amherst</text>
+  <rect x="150" y="396" width="201" height="20" fill="url(#highTaxGrad)" rx="3"/>
+  <text x="359" y="411" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">$15,408</text>
+  
+  <!-- Lowest taxes section -->
+  <rect x="460" y="155" width="390" height="270" fill="white" rx="10" stroke="#27ae60" stroke-width="2"/>
+  <rect x="460" y="155" width="390" height="35" fill="#27ae60" rx="10"/>
+  <rect x="460" y="175" width="390" height="15" fill="#27ae60"/>
+  <text x="655" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">💰 LOWEST TAX BILLS (on $858K home)</text>
+  
+  <!-- Low tax bars -->
+  <text x="470" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Chilmark</text>
+  <rect x="560" y="200" width="25" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="595" y="215" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$1,931</text>
+  
+  <text x="470" y="243" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Edgartown</text>
+  <rect x="560" y="228" width="30" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="600" y="243" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$2,275</text>
+  
+  <text x="470" y="271" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Hancock</text>
+  <rect x="560" y="256" width="30" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="600" y="271" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$2,309</text>
+  
+  <text x="470" y="299" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Gosnold</text>
+  <rect x="560" y="284" width="36" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="606" y="299" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$2,721</text>
+  
+  <text x="470" y="327" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Nantucket</text>
+  <rect x="560" y="312" width="37" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="607" y="327" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$2,815</text>
+  
+  <text x="470" y="355" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Chatham</text>
+  <rect x="560" y="340" width="39" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="609" y="355" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$2,979</text>
+  
+  <text x="470" y="383" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Dennis</text>
+  <rect x="560" y="368" width="49" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="619" y="383" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$3,717</text>
+  
+  <text x="470" y="411" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">W. Tisbury</text>
+  <rect x="560" y="396" width="51" height="20" fill="url(#lowTaxGrad)" rx="3"/>
+  <text x="621" y="411" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">$3,888</text>
+  
+  <!-- Split rate section -->
+  <rect x="50" y="445" width="800" height="170" fill="white" rx="10" stroke="#f39c12" stroke-width="2"/>
+  <rect x="50" y="445" width="800" height="35" fill="#f39c12" rx="10"/>
+  <rect x="50" y="465" width="800" height="15" fill="#f39c12"/>
+  <text x="450" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">⚖️ SPLIT TAX RATES - Where Businesses Subsidize Residents</text>
+  
+  <text x="80" y="500" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f8c8d">Municipality</text>
+  <text x="240" y="500" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f8c8d">Residential</text>
+  <text x="340" y="500" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f8c8d">Commercial</text>
+  <text x="450" y="500" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#7f8c8d">Ratio</text>
+  
+  <line x1="70" y1="508" x2="830" y2="508" stroke="#eee" stroke-width="1"/>
+  
+  <text x="80" y="528" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Burlington</text>
+  <text x="250" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">$8.66</text>
+  <text x="355" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">$25.47</text>
+  <text x="460" y="528" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">2.94x</text>
+  <rect x="520" y="515" width="147" height="18" fill="#e74c3c" rx="3" opacity="0.3"/>
+  
+  <text x="80" y="553" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Woburn</text>
+  <text x="250" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">$8.54</text>
+  <text x="355" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">$20.41</text>
+  <text x="460" y="553" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">2.39x</text>
+  <rect x="520" y="540" width="120" height="18" fill="#e74c3c" rx="3" opacity="0.3"/>
+  
+  <text x="80" y="578" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Boston</text>
+  <text x="250" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">$11.58</text>
+  <text x="355" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">$25.96</text>
+  <text x="460" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">2.24x</text>
+  <rect x="520" y="565" width="112" height="18" fill="#e74c3c" rx="3" opacity="0.3"/>
+  
+  <text x="80" y="603" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Holyoke</text>
+  <text x="250" y="603" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">$17.46</text>
+  <text x="355" y="603" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#e74c3c">$38.55</text>
+  <text x="460" y="603" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">2.21x</text>
+  <rect x="520" y="590" width="110" height="18" fill="#e74c3c" rx="3" opacity="0.3"/>
+  
+  <!-- Note -->
+  <text x="450" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">91 communities use split rates where businesses pay 1.5x+ more than residents</text>
+  
+  <!-- Major cities comparison -->
+  <rect x="50" y="660" width="800" height="55" rx="8" fill="#2c3e50"/>
+  <text x="450" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Major Cities: Boston $9,940/yr | Worcester $11,322 | Springfield $13,459 | Cambridge $5,451</text>
+  <text x="450" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Cambridge residents pay HALF what Springfield residents pay on same-value home</text>
+  
+  <!-- Source -->
+  <text x="450" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">Source: MA Department of Revenue, FY2025 Tax Rates by Class</text>
+</svg>

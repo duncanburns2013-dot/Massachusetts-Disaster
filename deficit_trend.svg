@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="deficitGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#922b21"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="600" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ecf0f1">Massachusetts Net Position: 10-Year Decline</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#e74c3c">From ($34.7B) to ($60.2B) — $25.5 billion deeper in the hole</text>
+  
+  <!-- Chart area -->
+  <rect x="100" y="90" width="700" height="380" fill="#16213e" rx="10"/>
+  
+  <!-- Grid lines and labels -->
+  <line x1="100" y1="130" x2="800" y2="130" stroke="#2d3a4f" stroke-width="1"/>
+  <line x1="100" y1="190" x2="800" y2="190" stroke="#2d3a4f" stroke-width="1"/>
+  <line x1="100" y1="250" x2="800" y2="250" stroke="#2d3a4f" stroke-width="1"/>
+  <line x1="100" y1="310" x2="800" y2="310" stroke="#2d3a4f" stroke-width="1"/>
+  <line x1="100" y1="370" x2="800" y2="370" stroke="#2d3a4f" stroke-width="1"/>
+  <line x1="100" y1="430" x2="800" y2="430" stroke="#2d3a4f" stroke-width="1"/>
+  
+  <!-- Y-axis labels (negative values) -->
+  <text x="90" y="135" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">($30B)</text>
+  <text x="90" y="195" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">($40B)</text>
+  <text x="90" y="255" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">($50B)</text>
+  <text x="90" y="315" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">($60B)</text>
+  <text x="90" y="375" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">($70B)</text>
+  
+  <!-- Data points (scaled: $30B=130, $70B=370, so 6px per $1B) -->
+  <!-- FY2015: -34.7B = 158 -->
+  <!-- FY2016: -36.1B = 167 -->
+  <!-- FY2017: -37.2B = 173 -->
+  <!-- FY2018: -38.1B = 179 -->
+  <!-- FY2019: -39.5B = 187 -->
+  <!-- FY2020: -47.7B = 236 -->
+  <!-- FY2021: -43.9B = 213 -->
+  <!-- FY2022: -39.6B = 188 -->
+  <!-- FY2023: -52.1B = 263 -->
+  <!-- FY2024: -60.2B = 311 -->
+  
+  <!-- Line chart -->
+  <polyline points="130,158 200,167 270,173 340,179 410,187 480,236 550,213 620,188 690,263 760,311" 
+            fill="none" stroke="#e74c3c" stroke-width="3"/>
+  
+  <!-- Data points with dots -->
+  <circle cx="130" cy="158" r="6" fill="#3498db"/>
+  <circle cx="200" cy="167" r="5" fill="#e74c3c"/>
+  <circle cx="270" cy="173" r="5" fill="#e74c3c"/>
+  <circle cx="340" cy="179" r="5" fill="#e74c3c"/>
+  <circle cx="410" cy="187" r="5" fill="#e74c3c"/>
+  <circle cx="480" cy="236" r="6" fill="#f39c12"/>
+  <circle cx="550" cy="213" r="5" fill="#e74c3c"/>
+  <circle cx="620" cy="188" r="6" fill="#27ae60"/>
+  <circle cx="690" cy="263" r="5" fill="#e74c3c"/>
+  <circle cx="760" cy="311" r="8" fill="#c0392b"/>
+  
+  <!-- Year labels -->
+  <text x="130" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY15</text>
+  <text x="200" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY16</text>
+  <text x="270" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY17</text>
+  <text x="340" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY18</text>
+  <text x="410" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY19</text>
+  <text x="480" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f39c12">FY20</text>
+  <text x="550" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY21</text>
+  <text x="620" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">FY22</text>
+  <text x="690" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">FY23</text>
+  <text x="760" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c0392b">FY24</text>
+  
+  <!-- Value labels -->
+  <text x="130" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#3498db">-$34.7B</text>
+  <text x="480" y="223" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">-$47.7B</text>
+  <text x="620" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">-$39.6B</text>
+  <text x="760" y="298" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c0392b">-$60.2B</text>
+  
+  <!-- Annotations -->
+  <rect x="460" y="242" width="100" height="35" rx="5" fill="#f39c12" opacity="0.3"/>
+  <text x="510" y="255" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">COVID</text>
+  <text x="510" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Impact</text>
+  
+  <rect x="600" y="168" width="80" height="35" rx="5" fill="#27ae60" opacity="0.3"/>
+  <text x="640" y="183" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">Federal</text>
+  <text x="640" y="198" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#27ae60">Aid Peak</text>
+  
+  <!-- Arrow showing total decline -->
+  <path d="M130 158 Q 250 100, 760 311" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="8,4"/>
+  <text x="400" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">-$25.5 BILLION (73% worse)</text>
+  
+  <!-- Explanation boxes -->
+  <rect x="50" y="485" width="260" height="70" rx="8" fill="#c0392b"/>
+  <text x="180" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Why It's Getting Worse</text>
+  <text x="180" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">• Pension costs rising faster than funding</text>
+  <text x="180" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">• Federal COVID aid ended</text>
+  
+  <rect x="320" y="485" width="260" height="70" rx="8" fill="#e67e22"/>
+  <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FY2023-2024 Collapse</text>
+  <text x="450" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">• $20.6B deterioration in 2 years</text>
+  <text x="450" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">• Worst decline in state history</text>
+  
+  <rect x="590" y="485" width="260" height="70" rx="8" fill="#8e44ad"/>
+  <text x="720" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Per Household Impact</text>
+  <text x="720" y="530" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">FY2015: ($13,094) per household</text>
+  <text x="720" y="545" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">FY2024: ($22,717) per household</text>
+  
+  <!-- Bottom warning -->
+  <rect x="150" y="565" width="600" height="25" rx="5" fill="#e74c3c"/>
+  <text x="450" y="582" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">⚠️ Each household is $9,623 MORE in debt than 10 years ago</text>
+  
+  <!-- Source -->
+  <text x="450" y="598" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Source: Commonwealth of Massachusetts Annual Comprehensive Financial Reports (ACFR) FY2015-2024</text>
+</svg>

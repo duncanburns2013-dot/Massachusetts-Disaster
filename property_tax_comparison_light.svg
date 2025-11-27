@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600">
+  <rect width="1000" height="600" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">PROPERTY TAX COMPARISON: MA vs COMPETITORS</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">Why people leave for no-income-tax states | Source: Tax Foundation, DLS</text>
+  
+  <!-- MA highlight -->
+  <rect x="30" y="85" width="200" height="140" rx="10" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="3"/>
+  <text x="130" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">MASSACHUSETTS</text>
+  <text x="130" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#c0392b">$10,585</text>
+  <text x="130" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Average property tax</text>
+  <text x="130" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b" font-weight="bold">#4 Highest in US</text>
+  
+  <!-- Comparison states -->
+  <rect x="250" y="85" width="170" height="140" rx="10" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2"/>
+  <text x="335" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#d35400">New Hampshire</text>
+  <text x="335" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#d35400">$6,000</text>
+  <text x="335" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">0% income tax</text>
+  <text x="335" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Save: $4,585/yr</text>
+  <text x="335" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">+ all income tax</text>
+  
+  <rect x="440" y="85" width="170" height="140" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="525" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">Florida</text>
+  <text x="525" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1e8449">$4,500</text>
+  <text x="525" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">0% income tax</text>
+  <text x="525" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Save: $6,085/yr</text>
+  <text x="525" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">+ all income tax</text>
+  
+  <rect x="630" y="85" width="170" height="140" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="715" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2980b9">Texas</text>
+  <text x="715" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#2980b9">$5,500</text>
+  <text x="715" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">0% income tax</text>
+  <text x="715" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">Save: $5,085/yr</text>
+  <text x="715" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#27ae60">+ all income tax</text>
+  
+  <rect x="820" y="85" width="150" height="140" rx="10" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="895" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#8e44ad">US Average</text>
+  <text x="895" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#8e44ad">$3,500</text>
+  <text x="895" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">National average</text>
+  <text x="895" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">MA is 3× higher</text>
+  
+  <!-- Total tax burden comparison -->
+  <rect x="30" y="245" width="940" height="180" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="500" y="275" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">TOTAL TAX BURDEN: $100K INCOME HOUSEHOLD</text>
+  
+  <!-- Bar comparison -->
+  <text x="150" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Massachusetts</text>
+  <rect x="50" y="320" width="200" height="30" fill="#c0392b" rx="3"/>
+  <text x="260" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">$19,585</text>
+  <text x="320" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">($9K income + $10.6K property)</text>
+  
+  <text x="150" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">New Hampshire</text>
+  <rect x="50" y="380" width="60" height="30" fill="#f39c12" rx="3"/>
+  <text x="120" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d35400">$6,000</text>
+  <text x="180" y="400" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(property only)</text>
+  
+  <text x="500" y="310" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Florida</text>
+  <rect x="400" y="320" width="45" height="30" fill="#27ae60" rx="3"/>
+  <text x="455" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">$4,500</text>
+  <text x="515" y="340" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(property only)</text>
+  
+  <text x="500" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Texas</text>
+  <rect x="400" y="380" width="55" height="30" fill="#3498db" rx="3"/>
+  <text x="465" y="400" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#3498db">$5,500</text>
+  <text x="525" y="400" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(property only)</text>
+  
+  <!-- Annual savings -->
+  <rect x="700" y="300" width="250" height="110" rx="8" fill="#27ae60" opacity="0.15" stroke="#27ae60" stroke-width="2"/>
+  <text x="825" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#1e8449">ANNUAL SAVINGS</text>
+  <text x="825" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Move to NH: $13,585/yr</text>
+  <text x="825" y="375" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Move to FL: $15,085/yr</text>
+  <text x="825" y="395" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Move to TX: $14,085/yr</text>
+  
+  <!-- Migration data -->
+  <rect x="30" y="445" width="940" height="130" rx="10" fill="#e74c3c" opacity="0.08" stroke="#e74c3c" stroke-width="1"/>
+  <text x="500" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">THE RESULT: EXODUS TO LOW-TAX STATES</text>
+  
+  <text x="180" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">To Florida (2021-22)</text>
+  <text x="180" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">13,106</text>
+  <text x="180" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">people | $1.45B AGI</text>
+  
+  <text x="400" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">To NH (2021-22)</text>
+  <text x="400" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#f39c12">9,542</text>
+  <text x="400" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">people | $502M AGI</text>
+  
+  <text x="620" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">To Texas (2021-22)</text>
+  <text x="620" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#3498db">3,627</text>
+  <text x="620" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">people | $170M AGI</text>
+  
+  <text x="840" y="515" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">4-Year Total Lost</text>
+  <text x="840" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#c0392b">86,382</text>
+  <text x="840" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">tax filers | $12.14B AGI</text>
+</svg>

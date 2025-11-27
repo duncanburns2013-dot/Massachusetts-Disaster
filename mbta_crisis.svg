@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="mbtaGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1a5276"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="700" fill="#ecf0f1"/>
+  
+  <!-- MBTA Logo style header -->
+  <rect x="0" y="0" width="900" height="80" fill="url(#mbtaGrad)"/>
+  <text x="450" y="45" text-anchor="middle" font-family="Arial Black, sans-serif" font-size="32" font-weight="bold" fill="white">MBTA</text>
+  <text x="450" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f1c40f">The $9.25 Billion Money Pit</text>
+  
+  <!-- Total obligations callout -->
+  <rect x="300" y="100" width="300" height="80" rx="15" fill="#c0392b"/>
+  <text x="450" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Obligations</text>
+  <text x="450" y="160" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white">$9.25 BILLION</text>
+  
+  <!-- Debt breakdown -->
+  <text x="450" y="210" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">📊 Debt Breakdown</text>
+  
+  <g transform="translate(50, 230)">
+    <!-- Revenue Bonds: $4.0B -->
+    <rect x="0" y="0" width="150" height="100" rx="8" fill="#3498db"/>
+    <text x="75" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Revenue Bonds</text>
+    <text x="75" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$4.0B</text>
+    <text x="75" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#aed6f1">43% of debt</text>
+    
+    <!-- Pension Unfunded: $1.76B -->
+    <rect x="165" y="0" width="150" height="100" rx="8" fill="#e74c3c"/>
+    <text x="240" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Pension Unfunded</text>
+    <text x="240" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$1.76B</text>
+    <text x="240" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f1948a">~46% funded</text>
+    
+    <!-- OPEB Unfunded: $2.05B -->
+    <rect x="330" y="0" width="150" height="100" rx="8" fill="#9b59b6"/>
+    <text x="405" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">OPEB Unfunded</text>
+    <text x="405" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$2.05B</text>
+    <text x="405" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d7bde2">~20% funded</text>
+    
+    <!-- RRIF Loans: $700M -->
+    <rect x="495" y="0" width="150" height="100" rx="8" fill="#f39c12"/>
+    <text x="570" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">RRIF Loans</text>
+    <text x="570" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$700M</text>
+    <text x="570" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fdebd0">Federal loans</text>
+    
+    <!-- Other: $724M -->
+    <rect x="660" y="0" width="150" height="100" rx="8" fill="#16a085"/>
+    <text x="735" y="30" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Other Debt</text>
+    <text x="735" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$724M</text>
+    <text x="735" y="85" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#a3e4d7">BABs, CP, GTS</text>
+  </g>
+  
+  <!-- Operating stats -->
+  <text x="450" y="365" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">💸 Operating Reality</text>
+  
+  <rect x="50" y="385" width="260" height="90" rx="8" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  <text x="180" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c">Annual Operating Budget</text>
+  <text x="180" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">$2.7 Billion</text>
+  <text x="180" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">FY2024</text>
+  
+  <rect x="320" y="385" width="260" height="90" rx="8" fill="white" stroke="#f39c12" stroke-width="2"/>
+  <text x="450" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#f39c12">State Subsidy Required</text>
+  <text x="450" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">$1.8+ Billion</text>
+  <text x="450" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">66%+ of budget</text>
+  
+  <rect x="590" y="385" width="260" height="90" rx="8" fill="white" stroke="#27ae60" stroke-width="2"/>
+  <text x="720" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#27ae60">Fare Revenue</text>
+  <text x="720" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">$549 Million</text>
+  <text x="720" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Only 20% of costs</text>
+  
+  <!-- Payroll section -->
+  <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">👷 Payroll &amp; Overtime</text>
+  
+  <rect x="150" y="525" width="280" height="80" rx="8" fill="#c0392b"/>
+  <text x="290" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Payroll</text>
+  <text x="290" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">$877 Million</text>
+  
+  <rect x="470" y="525" width="280" height="80" rx="8" fill="#e74c3c"/>
+  <text x="610" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Overtime Alone</text>
+  <text x="610" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">$122 Million</text>
+  
+  <text x="450" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e74c3c" font-weight="bold">13.9% of payroll is overtime - 3rd highest OT spender in state</text>
+  
+  <!-- Bottom callout -->
+  <rect x="100" y="645" width="700" height="35" rx="8" fill="#2c3e50"/>
+  <text x="450" y="668" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#f1c40f">Per Household Burden: $3,491 (total obligations ÷ 2.65M households)</text>
+  
+  <!-- Source -->
+  <text x="450" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">Source: MBTA Audited Financial Statements FY2016-2024, MA Comptroller Payroll Data</text>
+</svg>

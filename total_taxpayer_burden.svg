@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800">
+  <defs>
+    <linearGradient id="burdenGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#c0392b"/>
+      <stop offset="100%" style="stop-color:#e74c3c"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="800" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ecf0f1">The Massachusetts Taxpayer Burden</text>
+  <text x="450" y="68" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">What you're really paying for (per household of 2.65 million)</text>
+  
+  <!-- Giant total -->
+  <rect x="250" y="90" width="400" height="100" rx="15" fill="url(#burdenGrad)"/>
+  <text x="450" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="white">TOTAL DEBT + LIABILITIES</text>
+  <text x="450" y="170" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white">$40,599</text>
+  <text x="605" y="170" font-family="Arial, sans-serif" font-size="14" fill="#f1c40f">/household</text>
+  
+  <!-- Breakdown section -->
+  <text x="450" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1">📊 DEBT BREAKDOWN BY CATEGORY</text>
+  
+  <!-- Stacked bar representation -->
+  <g transform="translate(100, 240)">
+    <!-- Total bar background -->
+    <rect x="0" y="0" width="700" height="60" fill="#2d3a4f" rx="5"/>
+    
+    <!-- Bonded Debt: $47.99B = 44.6% = 312px -->
+    <rect x="0" y="0" width="312" height="60" fill="#e74c3c" rx="5"/>
+    <text x="156" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Bonded Debt</text>
+    <text x="156" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$47.99B (45%)</text>
+    
+    <!-- Pension: $42.07B = 39.1% = 274px -->
+    <rect x="312" y="0" width="274" height="60" fill="#9b59b6" rx="0"/>
+    <text x="449" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Unfunded Pension</text>
+    <text x="449" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$42.07B (39%)</text>
+    
+    <!-- OPEB: $15.77B = 14.7% = 103px -->
+    <rect x="586" y="0" width="103" height="60" fill="#3498db"/>
+    <text x="637" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">OPEB</text>
+    <text x="637" y="52" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="white">$15.77B</text>
+    
+    <!-- Other: ~$1.8B = 1.7% -->
+    <rect x="689" y="0" width="11" height="60" fill="#f39c12" rx="0 5 5 0"/>
+  </g>
+  
+  <!-- Per household breakdown boxes -->
+  <text x="450" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f1c40f">💰 YOUR SHARE OF THE DEBT</text>
+  
+  <g transform="translate(50, 360)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="190" height="70" rx="8" fill="#e74c3c"/>
+    <text x="95" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Bonded Debt</text>
+    <text x="95" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$18,109</text>
+    
+    <rect x="205" y="0" width="190" height="70" rx="8" fill="#9b59b6"/>
+    <text x="300" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Pension Unfunded</text>
+    <text x="300" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$15,875</text>
+    
+    <rect x="410" y="0" width="190" height="70" rx="8" fill="#3498db"/>
+    <text x="505" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">OPEB Unfunded</text>
+    <text x="505" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$5,951</text>
+    
+    <rect x="615" y="0" width="190" height="70" rx="8" fill="#f39c12"/>
+    <text x="710" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Net Deficit</text>
+    <text x="710" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$22,717</text>
+  </g>
+  
+  <!-- Annual costs section -->
+  <text x="450" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ecf0f1">📅 WHAT YOU PAY ANNUALLY</text>
+  
+  <g transform="translate(50, 495)">
+    <rect x="0" y="0" width="155" height="80" rx="8" fill="#16a085"/>
+    <text x="77" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Property Tax</text>
+    <text x="77" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Property Tax</text>
+    <text x="77" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$10,585</text>
+    <text x="77" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#a3e4d7">(on median home)</text>
+    
+    <rect x="165" y="0" width="155" height="80" rx="8" fill="#2980b9"/>
+    <text x="242" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Healthcare Share</text>
+    <text x="242" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$29,472</text>
+    <text x="242" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#aed6f1">($78.1B / 2.65M)</text>
+    
+    <rect x="330" y="0" width="155" height="80" rx="8" fill="#8e44ad"/>
+    <text x="407" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Education Share</text>
+    <text x="407" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$8,202</text>
+    <text x="407" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#d7bde2">($21.7B K-12)</text>
+    
+    <rect x="495" y="0" width="155" height="80" rx="8" fill="#d35400"/>
+    <text x="572" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">State Payroll Share</text>
+    <text x="572" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$3,790</text>
+    <text x="572" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f5cba7">($10B total)</text>
+    
+    <rect x="660" y="0" width="155" height="80" rx="8" fill="#c0392b"/>
+    <text x="737" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">Shelter Crisis</text>
+    <text x="737" y="50" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$377</text>
+    <text x="737" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f1948a">($1B/year)</text>
+  </g>
+  
+  <!-- What you get section -->
+  <text x="450" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#e74c3c">❌ WHAT YOU GET FOR IT</text>
+  
+  <g transform="translate(50, 635)">
+    <rect x="0" y="0" width="260" height="60" rx="8" fill="#2d3a4f" stroke="#e74c3c" stroke-width="2"/>
+    <text x="130" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">Education</text>
+    <text x="130" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">39% of kids passing tests</text>
+    <text x="130" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">(down from 52%)</text>
+    
+    <rect x="275" y="0" width="260" height="60" rx="8" fill="#2d3a4f" stroke="#e74c3c" stroke-width="2"/>
+    <text x="405" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">MBTA</text>
+    <text x="405" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Chronic delays, $9.25B debt</text>
+    <text x="405" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">(46% funded pension)</text>
+    
+    <rect x="550" y="0" width="260" height="60" rx="8" fill="#2d3a4f" stroke="#e74c3c" stroke-width="2"/>
+    <text x="680" y="25" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">Housing</text>
+    <text x="680" y="45" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$858K avg home, 1.66mo supply</text>
+    <text x="680" y="57" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">(+29% in 4 years)</text>
+  </g>
+  
+  <!-- Bottom exodus callout -->
+  <rect x="100" y="715" width="700" height="50" rx="10" fill="#c0392b"/>
+  <text x="450" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">🚪 THE RESULT: 153,080 people left (2018-2022) taking $12.2 BILLION in income</text>
+  <text x="450" y="758" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#f1c40f">People leaving earn 5.8% MORE than those arriving → Brain drain accelerating</text>
+  
+  <!-- Source -->
+  <text x="450" y="790" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Sources: Commonwealth ACFRs, PERAC, MBTA Financials, CHIA, DESE, IRS Migration Data, DOR</text>
+</svg>

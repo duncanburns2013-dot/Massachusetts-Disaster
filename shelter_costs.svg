@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="crisisGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+    <linearGradient id="normalGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#3498db"/>
+      <stop offset="100%" style="stop-color:#2980b9"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+  
+  <rect width="900" height="600" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ecf0f1">Emergency Shelter Cost Explosion</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">Monthly costs have nearly TRIPLED since 2023</text>
+  
+  <!-- Chart area -->
+  <rect x="100" y="100" width="700" height="380" fill="#16213e" rx="10"/>
+  
+  <!-- Grid lines -->
+  <g stroke="#2d3a4f" stroke-width="1">
+    <line x1="100" y1="180" x2="800" y2="180"/>
+    <line x1="100" y1="260" x2="800" y2="260"/>
+    <line x1="100" y1="340" x2="800" y2="340"/>
+    <line x1="100" y1="420" x2="800" y2="420"/>
+  </g>
+  
+  <!-- Y-axis labels -->
+  <text x="90" y="140" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$80M</text>
+  <text x="90" y="220" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$60M</text>
+  <text x="90" y="300" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$40M</text>
+  <text x="90" y="380" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$20M</text>
+  <text x="90" y="460" text-anchor="end" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">$0</text>
+  
+  <!-- Bars -->
+  <!-- Pre-Crisis: $27M = 135px height -->
+  <rect x="150" y="342" width="100" height="135" fill="url(#normalGrad)" rx="5"/>
+  <text x="200" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#3498db">$27M</text>
+  <text x="200" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Pre-Crisis</text>
+  <text x="200" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(Normal)</text>
+  
+  <!-- Aug 2023: $45M = 225px height -->
+  <rect x="300" y="252" width="100" height="225" fill="#f39c12" rx="5"/>
+  <text x="350" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f39c12">$45M</text>
+  <text x="350" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Aug 2023</text>
+  <text x="350" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(Emergency)</text>
+  
+  <!-- Early 2024: $75M = 375px height -->
+  <rect x="450" y="102" width="100" height="375" fill="url(#crisisGrad)" rx="5"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1" filter="url(#glow)">$75M</text>
+  <text x="500" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Early 2024</text>
+  <text x="500" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(Crisis Peak)</text>
+  
+  <!-- Late 2024: $78M = 390px height - capped -->
+  <rect x="600" y="102" width="100" height="375" fill="#e74c3c" rx="5"/>
+  <text x="650" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ecf0f1" filter="url(#glow)">$75-78M</text>
+  <text x="650" y="495" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">Late 2024</text>
+  <text x="650" y="508" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">(Sustained)</text>
+  
+  <!-- Increase arrow -->
+  <path d="M200 310 L200 180 L650 180" stroke="#e74c3c" stroke-width="3" fill="none" stroke-dasharray="10,5"/>
+  <polygon points="650,175 670,180 650,185" fill="#e74c3c"/>
+  <text x="425" y="168" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">+178% INCREASE</text>
+  
+  <!-- Cost breakdown boxes -->
+  <rect x="100" y="530" width="200" height="55" rx="8" fill="#c0392b"/>
+  <text x="200" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Cost Per Family</text>
+  <text x="200" y="572" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1c40f">$10,000/month</text>
+  
+  <rect x="350" y="530" width="200" height="55" rx="8" fill="#8e44ad"/>
+  <text x="450" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">Families at Peak</text>
+  <text x="450" y="572" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1c40f">7,500</text>
+  
+  <rect x="600" y="530" width="200" height="55" rx="8" fill="#16a085"/>
+  <text x="700" y="550" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FY24-25 Total</text>
+  <text x="700" y="572" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#f1c40f">$1.85+ BILLION</text>
+  
+  <!-- Source -->
+  <text x="450" y="598" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Sources: Massachusetts Budget Reports, Boston Herald, GBH News</text>
+</svg>

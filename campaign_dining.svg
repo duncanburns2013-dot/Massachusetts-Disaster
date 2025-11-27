@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 750">
+  <rect width="900" height="750" fill="#faf8f5"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Georgia, serif" font-size="26" font-weight="bold" fill="#2c3e50">Campaign Finance: Dining Like Royalty</text>
+  <text x="450" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">$45.9M analyzed across 21 politicians | 67,975 transactions</text>
+  
+  <!-- Top stats -->
+  <rect x="100" y="80" width="200" height="60" rx="8" fill="#c0392b"/>
+  <text x="200" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Total Analyzed</text>
+  <text x="200" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$45.9 Million</text>
+  
+  <rect x="350" y="80" width="200" height="60" rx="8" fill="#e67e22"/>
+  <text x="450" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Dining/Entertainment/Travel</text>
+  <text x="450" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$3.46 Million</text>
+  
+  <rect x="600" y="80" width="200" height="60" rx="8" fill="#8e44ad"/>
+  <text x="700" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Private Club Spending</text>
+  <text x="700" y="128" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="white">$527,068</text>
+  
+  <!-- UMass Club callout -->
+  <rect x="50" y="160" width="400" height="120" rx="10" fill="white" stroke="#9b59b6" stroke-width="3"/>
+  <text x="250" y="190" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#9b59b6">🏛️ THE UMASS CLUB</text>
+  <text x="250" y="215" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Politicians' Favorite Venue</text>
+  
+  <text x="70" y="245" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Total spent:</text>
+  <text x="380" y="245" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#9b59b6">$302,000+</text>
+  
+  <text x="70" y="268" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Top users: Mariano, Spilka, Healey, DiDomenico, Moran</text>
+  
+  <!-- Top restaurants -->
+  <rect x="470" y="160" width="380" height="120" rx="10" fill="white" stroke="#e74c3c" stroke-width="2"/>
+  <text x="660" y="188" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#e74c3c">🍽️ TOP RESTAURANTS</text>
+  
+  <text x="490" y="215" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Ruth's Chris Steak House</text>
+  <text x="820" y="215" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">$45,642 (40+ visits)</text>
+  
+  <text x="490" y="235" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Corrib Pub</text>
+  <text x="820" y="235" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">$30,565 (69 visits)</text>
+  
+  <text x="490" y="255" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Omni Parker House</text>
+  <text x="820" y="255" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">$119,390 (165 visits)</text>
+  
+  <text x="490" y="275" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Union Oyster House</text>
+  <text x="820" y="275" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">$12,858 (16 visits)</text>
+  
+  <!-- Top spenders by D/E/T percentage -->
+  <text x="450" y="310" text-anchor="middle" font-family="Georgia, serif" font-size="16" font-weight="bold" fill="#2c3e50">🍷 HIGHEST DINING/ENTERTAINMENT AS % OF TOTAL SPENDING</text>
+  
+  <g transform="translate(50, 330)">
+    <!-- Moran: 43.7% -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Michael Moran</text>
+    <rect x="150" y="5" width="350" height="25" fill="#ecf0f1" rx="3"/>
+    <rect x="150" y="5" width="306" height="25" fill="#c0392b" rx="3"/>
+    <text x="465" y="22" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">43.7%</text>
+    <text x="515" y="22" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$641K of $1.5M</text>
+    
+    <!-- DiDomenico: 30.8% -->
+    <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Sal DiDomenico</text>
+    <rect x="150" y="40" width="350" height="25" fill="#ecf0f1" rx="3"/>
+    <rect x="150" y="40" width="215" height="25" fill="#e67e22" rx="3"/>
+    <text x="375" y="57" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">30.8%</text>
+    <text x="515" y="57" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$484K of $1.6M</text>
+    
+    <!-- Mariano: 27.1% -->
+    <text x="0" y="90" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Ronald Mariano</text>
+    <rect x="150" y="75" width="350" height="25" fill="#ecf0f1" rx="3"/>
+    <rect x="150" y="75" width="189" height="25" fill="#f39c12" rx="3"/>
+    <text x="349" y="92" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">27.1%</text>
+    <text x="515" y="92" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$723K of $2.7M</text>
+    
+    <!-- Spilka: 25.6% -->
+    <text x="0" y="125" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Karen Spilka</text>
+    <rect x="150" y="110" width="350" height="25" fill="#ecf0f1" rx="3"/>
+    <rect x="150" y="110" width="179" height="25" fill="#9b59b6" rx="3"/>
+    <text x="339" y="127" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">25.6%</text>
+    <text x="515" y="127" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$1.04M of $4.1M</text>
+  </g>
+  
+  <!-- Media subscriptions -->
+  <rect x="550" y="330" width="300" height="140" rx="10" fill="white" stroke="#3498db" stroke-width="2"/>
+  <text x="700" y="358" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#3498db">📰 MEDIA SUBSCRIPTIONS</text>
+  <text x="700" y="378" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Paid with campaign funds</text>
+  
+  <text x="570" y="405" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Barry Finegold:</text>
+  <text x="570" y="422" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Boston Globe: $10,065 (139 txns)</text>
+  
+  <text x="570" y="445" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Michael Barrett:</text>
+  <text x="570" y="462" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">NYT $7,065 | WSJ $2,272 | Politico $3,600</text>
+  
+  <!-- Wine/entertainment venues -->
+  <text x="250" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#722f37">🍷 WINE &amp; ENTERTAINMENT</text>
+  
+  <rect x="50" y="525" width="400" height="100" fill="white" rx="8" stroke="#722f37" stroke-width="2"/>
+  
+  <text x="70" y="550" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">City Winery</text>
+  <text x="420" y="550" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#722f37">$137,278</text>
+  <text x="420" y="565" text-anchor="end" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Spilka: $112K | Healey: $14K</text>
+  
+  <text x="70" y="590" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Carrie Nation</text>
+  <text x="420" y="590" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#722f37">$35,219 (60+ visits)</text>
+  
+  <text x="70" y="615" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">The Stockyard</text>
+  <text x="420" y="615" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#722f37">$52,809 (Moran: 15 visits)</text>
+  
+  <!-- Hotels -->
+  <text x="660" y="510" text-anchor="middle" font-family="Georgia, serif" font-size="14" font-weight="bold" fill="#2980b9">🏨 TOP HOTELS</text>
+  
+  <rect x="470" y="525" width="380" height="100" fill="white" rx="8" stroke="#2980b9" stroke-width="2"/>
+  
+  <text x="490" y="550" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Omni Parker House</text>
+  <text x="820" y="550" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980b9">$119,390</text>
+  
+  <text x="490" y="575" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Lenox Hotel</text>
+  <text x="820" y="575" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980b9">$44,360</text>
+  
+  <text x="490" y="600" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Westin Hotels</text>
+  <text x="820" y="600" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980b9">$24,759</text>
+  
+  <text x="490" y="625" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Mandarin Oriental</text>
+  <text x="820" y="625" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2980b9">$7,149</text>
+  
+  <!-- Bottom callout -->
+  <rect x="100" y="645" width="700" height="70" rx="10" fill="#2c3e50"/>
+  <text x="450" y="675" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f1c40f">💡 CONTEXT: While Politicians Wine &amp; Dine...</text>
+  <text x="450" y="700" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">39% of students fail MCAS | 153K residents fled the state | $107.6B in total liabilities</text>
+  
+  <!-- Source -->
+  <text x="450" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">Source: OCPF Campaign Finance Reports (67,975 transactions analyzed)</text>
+</svg>

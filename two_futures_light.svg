@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 750">
+  <rect width="1100" height="750" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="550" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#2c3e50">TWO FUTURES FOR MASSACHUSETTS</text>
+  <text x="550" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">The choice is yours. The math is undeniable.</text>
+  
+  <!-- Left: Current Path -->
+  <rect x="30" y="75" width="510" height="655" rx="12" fill="#fdedec" stroke="#e74c3c" stroke-width="3"/>
+  <rect x="30" y="75" width="510" height="50" rx="12" fill="#e74c3c"/>
+  <rect x="30" y="110" width="510" height="15" fill="#e74c3c"/>
+  <text x="285" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">🔥 CURRENT PATH (By 2030)</text>
+  
+  <!-- Current path items -->
+  <rect x="50" y="145" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="168" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">💸 DEBT EXPLODES</text>
+  <text x="70" y="188" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Net deficit: $60B → $80B+ | Per household: $55,000+</text>
+  <text x="70" y="205" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Pension unfunded grows to $55B+</text>
+  
+  <rect x="50" y="225" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="248" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">📈 TAXES INCREASE</text>
+  <text x="70" y="268" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Millionaire tax already passed | More coming</text>
+  <text x="70" y="285" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Property tax avg: $10,585 → $14,000+</text>
+  
+  <rect x="50" y="305" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="328" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">🚗 EXODUS ACCELERATES</text>
+  <text x="70" y="348" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">153,080 left (4 yrs) → 250,000+ more by 2030</text>
+  <text x="70" y="365" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">$12.1B AGI lost → $25B+ lost</text>
+  
+  <rect x="50" y="385" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="408" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">📉 SERVICES DECLINE</text>
+  <text x="70" y="428" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">MCAS passing: 39% → 30%? | MBTA: worse</text>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">More spending, worse outcomes</text>
+  
+  <rect x="50" y="465" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="488" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">🏠 HOUSING UNAFFORDABLE</text>
+  <text x="70" y="508" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Average home: $858K → $1.1M+</text>
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Income needed: $195K → $250K+</text>
+  
+  <rect x="50" y="545" width="470" height="70" rx="8" fill="white" stroke="#e74c3c" stroke-width="1"/>
+  <text x="70" y="568" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">🏨 SHELTER COSTS GROW</text>
+  <text x="70" y="588" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">$1B+/year → $1.5B+/year (no end in sight)</text>
+  <text x="70" y="605" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Only state with right-to-shelter mandate</text>
+  
+  <rect x="50" y="635" width="470" height="80" rx="8" fill="#c0392b"/>
+  <text x="285" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2030 DESTINATION</text>
+  <text x="285" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#fad7d7">Detroit-style decline • Higher taxes • Worse services</text>
+  <text x="285" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#fad7d7">Population exodus • Fiscal collapse</text>
+  
+  <!-- Right: Reform Path -->
+  <rect x="560" y="75" width="510" height="655" rx="12" fill="#eafaf1" stroke="#27ae60" stroke-width="3"/>
+  <rect x="560" y="75" width="510" height="50" rx="12" fill="#27ae60"/>
+  <rect x="560" y="110" width="510" height="15" fill="#27ae60"/>
+  <text x="815" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">✅ REFORM PATH (By 2030)</text>
+  
+  <!-- Reform path items -->
+  <rect x="580" y="145" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="168" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">💰 DEBT STABILIZED</text>
+  <text x="600" y="188" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Net deficit: Freeze then reduce | Per household: $35,000</text>
+  <text x="600" y="205" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Hybrid pension stops the bleeding</text>
+  
+  <rect x="580" y="225" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="248" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">📉 NO TAX INCREASES</text>
+  <text x="600" y="268" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">$3.5B savings = no new taxes needed</text>
+  <text x="600" y="285" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Property tax relief possible</text>
+  
+  <rect x="580" y="305" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="328" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">🏠 EXODUS REVERSED</text>
+  <text x="600" y="348" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Net-zero migration by 2027 | Net positive by 2030</text>
+  <text x="600" y="365" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Competitive taxes retain residents</text>
+  
+  <rect x="580" y="385" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="408" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">📈 SERVICES IMPROVE</text>
+  <text x="600" y="428" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">MCAS: 39% → 50% | MBTA: on-time improves</text>
+  <text x="600" y="445" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Same money, better outcomes</text>
+  
+  <rect x="580" y="465" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="488" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">🏗️ HOUSING ADDRESSED</text>
+  <text x="600" y="508" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Zoning reform | Price growth at inflation</text>
+  <text x="600" y="525" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Young families can afford to stay</text>
+  
+  <rect x="580" y="545" width="470" height="70" rx="8" fill="white" stroke="#27ae60" stroke-width="1"/>
+  <text x="600" y="568" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#1e8449">🎯 SHELTER SUSTAINABLE</text>
+  <text x="600" y="588" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">$1B+ → $300M (pre-crisis level) | Saves $700M+</text>
+  <text x="600" y="605" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Limit to MA residents, enforce time limits</text>
+  
+  <rect x="580" y="635" width="470" height="80" rx="8" fill="#1e8449"/>
+  <text x="815" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">2030 DESTINATION</text>
+  <text x="815" y="690" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#d5f5e3">Stable finances • No new taxes • Better services</text>
+  <text x="815" y="708" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#d5f5e3">Population growth • $1,500/household savings</text>
+</svg>

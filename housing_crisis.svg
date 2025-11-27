@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <linearGradient id="priceGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="600" fill="#ecf0f1"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Massachusetts Housing Crisis: Prices Up 29% in 4 Years</text>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">Average single-family home now costs $858,380 with only 1.66 months inventory</text>
+  
+  <!-- Price trend chart -->
+  <rect x="50" y="80" width="500" height="280" fill="white" rx="10" stroke="#ddd" stroke-width="1"/>
+  <text x="300" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">Average Sale Price Trend</text>
+  
+  <!-- Chart grid -->
+  <line x1="100" y1="130" x2="500" y2="130" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="180" x2="500" y2="180" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="230" x2="500" y2="230" stroke="#eee" stroke-width="1"/>
+  <line x1="100" y1="280" x2="500" y2="280" stroke="#eee" stroke-width="1"/>
+  
+  <!-- Y-axis labels -->
+  <text x="90" y="135" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$900K</text>
+  <text x="90" y="185" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$800K</text>
+  <text x="90" y="235" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$700K</text>
+  <text x="90" y="285" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$600K</text>
+  <text x="90" y="330" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">$500K</text>
+  
+  <!-- Price bars (scaled: $500K=330, $900K=130, so 50px per $100K) -->
+  <!-- 2021: $663,788 = 248 -->
+  <rect x="120" y="248" width="60" height="82" fill="#3498db" rx="3"/>
+  <text x="150" y="240" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#3498db">$664K</text>
+  <text x="150" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">2021</text>
+  
+  <!-- 2022: $725,752 = 217 -->
+  <rect x="200" y="217" width="60" height="113" fill="#9b59b6" rx="3"/>
+  <text x="230" y="209" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#9b59b6">$726K</text>
+  <text x="230" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">2022</text>
+  
+  <!-- 2023: $759,655 = 200 -->
+  <rect x="280" y="200" width="60" height="130" fill="#e67e22" rx="3"/>
+  <text x="310" y="192" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e67e22">$760K</text>
+  <text x="310" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">2023</text>
+  
+  <!-- 2024: $812,650 = 174 -->
+  <rect x="360" y="174" width="60" height="156" fill="#e74c3c" rx="3"/>
+  <text x="390" y="166" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#e74c3c">$813K</text>
+  <text x="390" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">2024</text>
+  
+  <!-- 2025 YTD: $858,380 = 151 -->
+  <rect x="440" y="151" width="60" height="179" fill="#c0392b" rx="3"/>
+  <text x="470" y="143" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c0392b">$858K</text>
+  <text x="470" y="345" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">2025</text>
+  
+  <!-- Increase annotation -->
+  <path d="M150 248 Q 300 150, 470 151" stroke="#e74c3c" stroke-width="2" fill="none" stroke-dasharray="5,3"/>
+  <text x="300" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e74c3c">+$194,592 (+29%)</text>
+  
+  <!-- Inventory crisis panel -->
+  <rect x="570" y="80" width="280" height="280" fill="white" rx="10" stroke="#e74c3c" stroke-width="2"/>
+  <text x="710" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">🚨 INVENTORY CRISIS</text>
+  
+  <text x="710" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#e74c3c">1.66</text>
+  <text x="710" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Months of Supply</text>
+  
+  <line x1="600" y1="195" x2="820" y2="195" stroke="#eee" stroke-width="2"/>
+  
+  <text x="710" y="220" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Balanced Market = 6 months</text>
+  
+  <rect x="600" y="235" width="220" height="20" fill="#ecf0f1" rx="3"/>
+  <rect x="600" y="235" width="61" height="20" fill="#e74c3c" rx="3"/>
+  <text x="710" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">27.7% of balanced</text>
+  
+  <text x="710" y="285" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Days on Market:</text>
+  <text x="710" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">38 days</text>
+  
+  <text x="710" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Homes sell in just over a month</text>
+  
+  <!-- Key metrics row -->
+  <rect x="50" y="380" width="200" height="80" rx="8" fill="#c0392b"/>
+  <text x="150" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Median Home Price</text>
+  <text x="150" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$858,380</text>
+  <text x="150" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">+29% since 2021</text>
+  
+  <rect x="270" y="380" width="200" height="80" rx="8" fill="#e67e22"/>
+  <text x="370" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Property Tax (Avg)</text>
+  <text x="370" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$10,585/yr</text>
+  <text x="370" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#fff">$882/month</text>
+  
+  <rect x="490" y="380" width="200" height="80" rx="8" fill="#8e44ad"/>
+  <text x="590" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">20% Down Payment</text>
+  <text x="590" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$171,676</text>
+  <text x="590" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">Years to save @ $2K/mo: 7.2</text>
+  
+  <rect x="710" y="380" width="140" height="80" rx="8" fill="#16a085"/>
+  <text x="780" y="405" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Monthly PITI*</text>
+  <text x="780" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">$5,800+</text>
+  <text x="780" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#fff">*Principal, Interest, Tax, Ins</text>
+  
+  <!-- Income requirement box -->
+  <rect x="100" y="480" width="700" height="70" rx="10" fill="#2c3e50"/>
+  <text x="450" y="510" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f1c40f">💰 INCOME NEEDED TO AFFORD MEDIAN HOME</text>
+  <text x="450" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="white">$195,000+ household income (at 28% DTI ratio)</text>
+  
+  <!-- Migration connection -->
+  <rect x="100" y="560" width="700" height="25" rx="5" fill="#e74c3c"/>
+  <text x="450" y="577" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">No wonder 153,000 people left Massachusetts in 4 years → See Migration Crisis</text>
+  
+  <!-- Source -->
+  <text x="450" y="598" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#95a5a6">Source: MLS Property Information Network, Five Year Market Report 2021-2025</text>
+</svg>

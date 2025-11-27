@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650">
+  <rect width="1000" height="650" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">OVERTIME ABUSE: $599 MILLION IN EXTRAS</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">State employees earning more in OT than some earn in salary | Source: MA State Payroll FY2025</text>
+  
+  <!-- Main stats -->
+  <rect x="30" y="80" width="230" height="120" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="145" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">TOTAL OVERTIME</text>
+  <text x="145" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#c0392b">$599M</text>
+  <text x="145" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Statewide FY2025</text>
+  <text x="145" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#c0392b">6% of total payroll</text>
+  
+  <rect x="280" y="80" width="230" height="120" rx="10" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2"/>
+  <text x="395" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d35400">TOTAL PAYROLL</text>
+  <text x="395" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#d35400">$10.04B</text>
+  <text x="395" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">158 departments</text>
+  <text x="395" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d35400">+overtime, benefits extra</text>
+  
+  <rect x="530" y="80" width="230" height="120" rx="10" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="645" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">WORST OFFENDER</text>
+  <text x="645" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#8e44ad">27.4%</text>
+  <text x="645" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Suffolk Sheriff OT ratio</text>
+  <text x="645" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#8e44ad">Target: 10% max</text>
+  
+  <rect x="780" y="80" width="190" height="120" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="875" y="108" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2980b9">YOUR SHARE</text>
+  <text x="875" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#2980b9">$226</text>
+  <text x="875" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">per household</text>
+  <text x="875" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2980b9">for overtime alone</text>
+  
+  <!-- Worst departments -->
+  <rect x="30" y="220" width="460" height="200" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="260" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">WORST OVERTIME ABUSE BY DEPARTMENT</text>
+  
+  <!-- Bar chart -->
+  <rect x="60" y="270" width="274" height="22" fill="#c0392b" rx="3"/>
+  <text x="70" y="286" font-family="Arial, sans-serif" font-size="10" fill="white">Suffolk Sheriff</text>
+  <text x="450" y="286" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#c0392b">27.4% OT ratio</text>
+  
+  <rect x="60" y="300" width="220" height="22" fill="#e74c3c" opacity="0.8" rx="3"/>
+  <text x="70" y="316" font-family="Arial, sans-serif" font-size="10" fill="white">State Police</text>
+  <text x="450" y="316" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">22.0% OT ratio</text>
+  
+  <rect x="60" y="330" width="180" height="22" fill="#e74c3c" opacity="0.7" rx="3"/>
+  <text x="70" y="346" font-family="Arial, sans-serif" font-size="10" fill="white">DOC</text>
+  <text x="450" y="346" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">18.0% OT ratio</text>
+  
+  <rect x="60" y="360" width="140" height="22" fill="#f39c12" opacity="0.7" rx="3"/>
+  <text x="70" y="376" font-family="Arial, sans-serif" font-size="10" fill="white">MBTA</text>
+  <text x="450" y="376" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">14.0% OT ratio</text>
+  
+  <rect x="60" y="390" width="100" height="22" fill="#27ae60" opacity="0.5" rx="3"/>
+  <text x="170" y="406" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Target Maximum</text>
+  <text x="450" y="406" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#27ae60">10.0% OT ratio</text>
+  
+  <!-- Examples -->
+  <rect x="510" y="220" width="460" height="200" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="740" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">INDIVIDUAL OVERTIME EXAMPLES</text>
+  
+  <text x="530" y="280" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">State Trooper earning $300K+ total:</text>
+  <text x="530" y="300" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Base: $90K | OT: $120K+ | Details: $90K+</text>
+  
+  <text x="530" y="335" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">MBTA employee earning $200K+:</text>
+  <text x="530" y="355" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Base: $70K | OT: $80K+ | Benefits: $50K+</text>
+  
+  <text x="530" y="390" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Corrections Officer earning $180K+:</text>
+  <text x="530" y="410" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Base: $65K | OT: $70K+ | Details: $45K+</text>
+  
+  <!-- Problem explanation -->
+  <rect x="30" y="440" width="940" height="100" rx="10" fill="#e74c3c" opacity="0.08" stroke="#e74c3c" stroke-width="1"/>
+  <text x="500" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">WHY THIS HAPPENS</text>
+  
+  <text x="180" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Understaffing</text>
+  <text x="180" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Creates OT "necessity"</text>
+  
+  <text x="380" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Union Contracts</text>
+  <text x="380" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">Guarantee OT opportunities</text>
+  
+  <text x="580" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Pension Spiking</text>
+  <text x="580" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">OT counts in final average</text>
+  
+  <text x="780" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">No Accountability</text>
+  <text x="780" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#7f8c8d">No caps, no consequences</text>
+  
+  <!-- Solution -->
+  <rect x="30" y="560" width="940" height="70" rx="10" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="2"/>
+  <text x="500" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#1e8449">✓ SOLUTION: Cap overtime at 10% of departmental payroll</text>
+  <text x="500" y="615" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#27ae60" font-weight="bold">Estimated savings: $200M+/year</text>
+</svg>

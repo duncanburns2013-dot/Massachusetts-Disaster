@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <rect width="900" height="700" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial" font-size="20" font-weight="bold" fill="#2c3e50">NON-CITIZEN COSTS TO MA TAXPAYERS</text>
+  <text x="450" y="55" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">Sources: Census ACS 2024, FAIR, CIS</text>
+  
+  <!-- Big number highlight -->
+  <rect x="300" y="75" width="300" height="80" rx="8" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="450" y="115" text-anchor="middle" font-family="Arial" font-size="40" font-weight="bold" fill="#c0392b">$2.9 BILLION</text>
+  <text x="450" y="140" text-anchor="middle" font-family="Arial" font-size="12" fill="#555">Annual cost to taxpayers</text>
+  
+  <!-- Three columns of stats -->
+  <!-- Column 1: Population -->
+  <rect x="30" y="175" width="270" height="180" rx="6" fill="#f5f5f5" stroke="#ddd"/>
+  <text x="165" y="200" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#2980b9">POPULATION</text>
+  
+  <text x="50" y="230" font-family="Arial" font-size="11" fill="#555">Total MA:</text>
+  <text x="280" y="230" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#333">7,136,171</text>
+  
+  <text x="50" y="255" font-family="Arial" font-size="11" fill="#555">Non-Citizens:</text>
+  <text x="280" y="255" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">641,080 (9%)</text>
+  
+  <text x="50" y="280" font-family="Arial" font-size="11" fill="#555">Unauthorized:</text>
+  <text x="280" y="280" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">~275,000</text>
+  
+  <text x="50" y="305" font-family="Arial" font-size="11" fill="#555">US-Born Children:</text>
+  <text x="280" y="305" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">~118,000</text>
+  
+  <text x="165" y="340" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b">Total: ~393,000</text>
+  
+  <!-- Column 2: Annual Costs -->
+  <rect x="315" y="175" width="270" height="180" rx="6" fill="#f5f5f5" stroke="#ddd"/>
+  <text x="450" y="200" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#c0392b">ANNUAL COSTS</text>
+  
+  <text x="335" y="230" font-family="Arial" font-size="11" fill="#555">Shelter:</text>
+  <text x="565" y="230" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">$1,000M+</text>
+  
+  <text x="335" y="255" font-family="Arial" font-size="11" fill="#555">Healthcare:</text>
+  <text x="565" y="255" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">$800M+</text>
+  
+  <text x="335" y="280" font-family="Arial" font-size="11" fill="#555">Education:</text>
+  <text x="565" y="280" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">$575M+</text>
+  
+  <text x="335" y="305" font-family="Arial" font-size="11" fill="#555">Other:</text>
+  <text x="565" y="305" text-anchor="end" font-family="Arial" font-size="11" font-weight="bold" fill="#c0392b">$525M+</text>
+  
+  <line x1="335" y1="320" x2="565" y2="320" stroke="#c0392b" stroke-width="1"/>
+  <text x="450" y="345" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#c0392b">TOTAL: $2.9B/yr</text>
+  
+  <!-- Column 3: Your Share -->
+  <rect x="600" y="175" width="270" height="180" rx="6" fill="#8e44ad" opacity="0.1" stroke="#8e44ad" stroke-width="2"/>
+  <text x="735" y="200" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#8e44ad">YOUR SHARE</text>
+  <text x="735" y="260" text-anchor="middle" font-family="Arial" font-size="48" font-weight="bold" fill="#8e44ad">$1,094</text>
+  <text x="735" y="290" text-anchor="middle" font-family="Arial" font-size="11" fill="#555">per household/year</text>
+  <text x="735" y="315" text-anchor="middle" font-family="Arial" font-size="10" fill="#888">(2.65M households)</text>
+  
+  <!-- Bar Chart -->
+  <rect x="30" y="375" width="400" height="160" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="230" y="400" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">COST BREAKDOWN</text>
+  
+  <rect x="50" y="420" width="200" height="20" fill="#3498db" rx="2"/>
+  <text x="260" y="435" font-family="Arial" font-size="10" fill="#333">Shelter $1B (34%)</text>
+  
+  <rect x="50" y="450" width="160" height="20" fill="#e74c3c" rx="2"/>
+  <text x="220" y="465" font-family="Arial" font-size="10" fill="#333">Healthcare $800M (28%)</text>
+  
+  <rect x="50" y="480" width="115" height="20" fill="#f39c12" rx="2"/>
+  <text x="175" y="495" font-family="Arial" font-size="10" fill="#333">Education $575M (20%)</text>
+  
+  <rect x="50" y="510" width="105" height="20" fill="#9b59b6" rx="2"/>
+  <text x="165" y="525" font-family="Arial" font-size="10" fill="#333">Other $525M (18%)</text>
+  
+  <!-- Education Detail -->
+  <rect x="450" y="375" width="420" height="160" rx="6" fill="#f9f9f9" stroke="#ddd"/>
+  <text x="660" y="400" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#333">EDUCATION DETAIL</text>
+  
+  <text x="470" y="430" font-family="Arial" font-size="10" fill="#555">Unauthorized students:</text>
+  <text x="850" y="430" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">~25,000</text>
+  
+  <text x="470" y="455" font-family="Arial" font-size="10" fill="#555">US-born of unauthorized:</text>
+  <text x="850" y="455" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">~25,000</text>
+  
+  <text x="470" y="480" font-family="Arial" font-size="10" fill="#555">Cost per pupil:</text>
+  <text x="850" y="480" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#333">$23,000/yr</text>
+  
+  <text x="470" y="505" font-family="Arial" font-size="10" fill="#555">ESL premium:</text>
+  <text x="850" y="505" text-anchor="end" font-family="Arial" font-size="10" font-weight="bold" fill="#d35400">+20-40%</text>
+  
+  <!-- Warning Box -->
+  <rect x="30" y="555" width="840" height="55" rx="6" fill="#f39c12" opacity="0.15" stroke="#f39c12" stroke-width="2"/>
+  <text x="450" y="580" text-anchor="middle" font-family="Arial" font-size="13" font-weight="bold" fill="#d35400">⚠️ 2026 WARNING</text>
+  <text x="450" y="600" text-anchor="middle" font-family="Arial" font-size="10" fill="#555">After 5 years, 2021 arrivals become eligible for SNAP, SSI, TANF → Hundreds of millions more</text>
+  
+  <!-- Bottom: What it could fund -->
+  <rect x="30" y="625" width="840" height="60" rx="6" fill="#27ae60" opacity="0.1" stroke="#27ae60" stroke-width="1"/>
+  <text x="450" y="650" text-anchor="middle" font-family="Arial" font-size="12" font-weight="bold" fill="#1e8449">WHAT $2.9B COULD FUND INSTEAD:</text>
+  <text x="450" y="670" text-anchor="middle" font-family="Arial" font-size="10" fill="#333">$1,094/household tax relief  •  100% MBTA budget  •  $28K/teacher raise  •  580 mi road repair</text>
+</svg>

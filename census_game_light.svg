@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750">
+  <rect width="1000" height="750" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">THE CENSUS GAME: WHY POLITICIANS WANT NON-CITIZENS</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">Constitutional framework • Federal funding • Political incentives | Sources: US Census, MassBudget</text>
+  
+  <!-- Constitutional rule -->
+  <rect x="30" y="80" width="460" height="120" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="260" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#2980b9">14TH AMENDMENT RULE</text>
+  <text x="260" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">"Representatives shall be apportioned among the</text>
+  <text x="260" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">several states according to their respective numbers,</text>
+  <text x="260" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2980b9">counting the whole number of PERSONS in each state"</text>
+  <text x="260" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Since 1790: Citizens + Non-citizens + Undocumented ALL count</text>
+  
+  <!-- MA seats history -->
+  <rect x="510" y="80" width="460" height="120" rx="10" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2"/>
+  <text x="740" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d35400">MA CONGRESSIONAL SEATS</text>
+  
+  <text x="580" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">2000</text>
+  <text x="580" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#27ae60">10</text>
+  
+  <text x="680" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">2010</text>
+  <text x="680" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#e74c3c">9</text>
+  <text x="680" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#e74c3c">Lost 1</text>
+  
+  <text x="780" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">2020</text>
+  <text x="780" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#f39c12">9</text>
+  <text x="780" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#f39c12">Held</text>
+  
+  <text x="880" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">2030</text>
+  <text x="880" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#c0392b">8?</text>
+  <text x="880" y="195" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#c0392b">At risk</text>
+  
+  <!-- Federal funding tied to census -->
+  <rect x="30" y="220" width="620" height="200" rx="10" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1"/>
+  <text x="340" y="245" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#2c3e50">FEDERAL FUNDING TIED TO CENSUS: $22.8B+ ANNUALLY</text>
+  
+  <!-- Bar chart of funding -->
+  <rect x="60" y="270" width="260" height="22" fill="#e74c3c" rx="3"/>
+  <text x="70" y="286" font-family="Arial, sans-serif" font-size="10" fill="white">MassHealth (Medicaid)</text>
+  <text x="600" y="286" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">$10.6B</text>
+  
+  <rect x="60" y="300" width="200" height="22" fill="#3498db" rx="3"/>
+  <text x="70" y="316" font-family="Arial, sans-serif" font-size="10" fill="white">Medicare</text>
+  <text x="600" y="316" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">$8.0B+</text>
+  
+  <rect x="60" y="330" width="50" height="22" fill="#9b59b6" rx="3"/>
+  <text x="70" y="346" font-family="Arial, sans-serif" font-size="10" fill="white">SNAP</text>
+  <text x="600" y="346" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">$1.5B+</text>
+  
+  <rect x="60" y="360" width="30" height="22" fill="#f39c12" rx="3"/>
+  <text x="150" y="376" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Education (Title I, IDEA)</text>
+  <text x="600" y="376" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">$500M+</text>
+  
+  <rect x="60" y="390" width="25" height="22" fill="#1abc9c" rx="3"/>
+  <text x="150" y="406" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">Highway/Transit, Housing, Other</text>
+  <text x="600" y="406" text-anchor="end" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="#2c3e50">$2.2B+</text>
+  
+  <!-- Value per person -->
+  <rect x="670" y="220" width="300" height="200" rx="10" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="820" y="250" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#8e44ad">VALUE PER PERSON</text>
+  
+  <text x="820" y="300" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#8e44ad">$3,300</text>
+  <text x="820" y="330" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">per year in federal funding</text>
+  <text x="820" y="355" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">for EACH person counted</text>
+  <text x="820" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">(citizen or not)</text>
+  <text x="820" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8e44ad">+ fraction of congressional seat</text>
+  
+  <!-- Shelter population math -->
+  <rect x="30" y="440" width="460" height="160" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="260" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#c0392b">SHELTER POPULATION: THE MATH</text>
+  
+  <text x="50" y="495" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">People in shelter system:</text>
+  <text x="450" y="495" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">~20,000</text>
+  
+  <text x="50" y="520" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Census value (20K × $3,300):</text>
+  <text x="450" y="520" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#27ae60">$66 million/year</text>
+  
+  <text x="50" y="545" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Actual cost to state:</text>
+  <text x="450" y="545" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">$1,000+ million/year</text>
+  
+  <line x1="50" y1="560" x2="450" y2="560" stroke="#c0392b" stroke-width="1"/>
+  
+  <text x="50" y="585" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">NET TAXPAYER LOSS:</text>
+  <text x="450" y="585" text-anchor="end" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#c0392b">-$934 MILLION</text>
+  
+  <!-- Political incentive -->
+  <rect x="510" y="440" width="460" height="160" rx="10" fill="#f39c12" opacity="0.1" stroke="#f39c12" stroke-width="2"/>
+  <text x="740" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#d35400">THE POLITICAL INCENTIVE</text>
+  
+  <text x="530" y="500" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓</text>
+  <text x="550" y="500" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">More people = More federal $$$</text>
+  
+  <text x="530" y="525" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓</text>
+  <text x="550" y="525" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">More people = More congressional seats</text>
+  
+  <text x="530" y="550" font-family="Arial, sans-serif" font-size="12" fill="#27ae60">✓</text>
+  <text x="550" y="550" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Doesn't matter if citizens or not</text>
+  
+  <text x="530" y="575" font-family="Arial, sans-serif" font-size="12" fill="#e74c3c">❌</text>
+  <text x="550" y="575" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">Cost to taxpayers: Not their problem</text>
+  
+  <text x="740" y="595" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#d35400" font-weight="bold">"Immigrants helped keep our seats" - Sec. Galvin</text>
+  
+  <!-- Population exchange -->
+  <rect x="30" y="620" width="940" height="110" rx="10" fill="#2c3e50" opacity="0.05" stroke="#2c3e50" stroke-width="1"/>
+  <text x="500" y="650" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">THE POPULATION EXCHANGE</text>
+  
+  <text x="250" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#c0392b" font-weight="bold">LEAVING: 86,382 tax filers</text>
+  <text x="250" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b">Avg income: $109,902 • Total: $12.1B AGI</text>
+  
+  <text x="500" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d">⟷</text>
+  
+  <text x="750" y="685" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#3498db" font-weight="bold">ARRIVING: 90,217 immigrants/year</text>
+  <text x="750" y="705" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#3498db">Many counted for census, fewer pay income tax</text>
+</svg>

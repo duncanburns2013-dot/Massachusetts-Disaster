@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 800">
+  <defs>
+    <linearGradient id="savingsGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#27ae60"/>
+      <stop offset="100%" style="stop-color:#2ecc71"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#27ae60">💰 $3.5+ BILLION IN SAVINGS</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" fill="#2c3e50">WITHOUT Raising Taxes on Massachusetts Residents</text>
+  
+  <!-- Intro box -->
+  <rect x="100" y="85" width="700" height="50" rx="10" fill="#27ae60"/>
+  <text x="450" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">These reforms require political will, not new revenue. Every dollar saved is a dollar not taken from taxpayers.</text>
+  
+  <!-- Solution 1: Emergency Shelter Reform -->
+  <rect x="50" y="155" width="400" height="140" rx="10" fill="white" stroke="#c0392b" stroke-width="3"/>
+  <rect x="50" y="155" width="400" height="35" rx="10" fill="#c0392b"/>
+  <rect x="50" y="175" width="400" height="15" fill="#c0392b"/>
+  <text x="250" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">1. END THE SHELTER CRISIS</text>
+  
+  <text x="70" y="215" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Current Cost: $1+ Billion/year</text>
+  <text x="70" y="235" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• End right-to-shelter for non-citizens</text>
+  <text x="70" y="252" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Enforce 9-month stay limits strictly</text>
+  <text x="70" y="269" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Require work authorization proof</text>
+  <text x="330" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $700M+</text>
+  
+  <!-- Solution 2: Overtime Reform -->
+  <rect x="470" y="155" width="380" height="140" rx="10" fill="white" stroke="#e67e22" stroke-width="3"/>
+  <rect x="470" y="155" width="380" height="35" rx="10" fill="#e67e22"/>
+  <rect x="470" y="175" width="380" height="15" fill="#e67e22"/>
+  <text x="660" y="178" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">2. OVERTIME ABUSE CRACKDOWN</text>
+  
+  <text x="490" y="215" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Current OT: $599M (6% of payroll)</text>
+  <text x="490" y="235" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Cap OT at 10% per department</text>
+  <text x="490" y="252" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Hire vs OT cost-benefit analysis</text>
+  <text x="490" y="269" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Audit Suffolk Sheriff (27.4% OT!)</text>
+  <text x="730" y="280" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $200M+</text>
+  
+  <!-- Solution 3: Pension Reform -->
+  <rect x="50" y="310" width="400" height="140" rx="10" fill="white" stroke="#9b59b6" stroke-width="3"/>
+  <rect x="50" y="310" width="400" height="35" rx="10" fill="#9b59b6"/>
+  <rect x="50" y="330" width="400" height="15" fill="#9b59b6"/>
+  <text x="250" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">3. PENSION SYSTEM REFORM</text>
+  
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Unfunded: $42B | Annual: $5.1B</text>
+  <text x="70" y="390" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Move new hires to hybrid 401k plan</text>
+  <text x="70" y="407" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• End pension spiking via final year OT</text>
+  <text x="70" y="424" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Raise retirement age to 62</text>
+  <text x="330" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $500M+/yr</text>
+  
+  <!-- Solution 4: Healthcare Efficiency -->
+  <rect x="470" y="310" width="380" height="140" rx="10" fill="white" stroke="#3498db" stroke-width="3"/>
+  <rect x="470" y="310" width="380" height="35" rx="10" fill="#3498db"/>
+  <rect x="470" y="330" width="380" height="15" fill="#3498db"/>
+  <text x="660" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">4. MASSHEALTH REFORM</text>
+  
+  <text x="490" y="370" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Current: $22.2B (+14.8% growth)</text>
+  <text x="490" y="390" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Verify eligibility annually (2.3M enrolled)</text>
+  <text x="490" y="407" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Audit duplicate/fraudulent claims</text>
+  <text x="490" y="424" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Pharmacy benefit management reform</text>
+  <text x="730" y="435" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $800M+</text>
+  
+  <!-- Solution 5: MBTA Reform -->
+  <rect x="50" y="465" width="400" height="140" rx="10" fill="white" stroke="#1a5276" stroke-width="3"/>
+  <rect x="50" y="465" width="400" height="35" rx="10" fill="#1a5276"/>
+  <rect x="50" y="485" width="400" height="15" fill="#1a5276"/>
+  <text x="250" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">5. MBTA EFFICIENCY</text>
+  
+  <text x="70" y="525" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">Payroll: $877M | OT: $122M (13.9%)</text>
+  <text x="70" y="545" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Cap OT at industry standard 8%</text>
+  <text x="70" y="562" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Competitive bidding for all contracts</text>
+  <text x="70" y="579" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Performance-based management</text>
+  <text x="330" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $150M+</text>
+  
+  <!-- Solution 6: Procurement Reform -->
+  <rect x="470" y="465" width="380" height="140" rx="10" fill="white" stroke="#16a085" stroke-width="3"/>
+  <rect x="470" y="465" width="380" height="35" rx="10" fill="#16a085"/>
+  <rect x="470" y="485" width="380" height="15" fill="#16a085"/>
+  <text x="660" y="488" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">6. PROCUREMENT REFORM</text>
+  
+  <text x="490" y="525" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">State Contracts: $10B+/year</text>
+  <text x="490" y="545" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Require 3+ competitive bids</text>
+  <text x="490" y="562" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• End no-bid contract abuse</text>
+  <text x="490" y="579" font-family="Arial, sans-serif" font-size="11" fill="#2c3e50">• Public online contract database</text>
+  <text x="730" y="590" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#27ae60">SAVES: $300M+</text>
+  
+  <!-- Additional reforms -->
+  <rect x="50" y="620" width="800" height="90" rx="10" fill="#2c3e50"/>
+  <text x="450" y="648" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f1c40f">ADDITIONAL REFORMS</text>
+  
+  <text x="120" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• Education: Consolidate 396 districts</text>
+  <text x="120" y="695" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">  Saves: $400M+</text>
+  
+  <text x="350" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• State workforce: Attrition-based cuts</text>
+  <text x="350" y="695" font-family="Arial, sans-serif" font-size="11" fill="#27ae60">  Saves: $200M+</text>
+  
+  <text x="600" y="675" font-family="Arial, sans-serif" font-size="11" fill="white">• Campaign spending: Ban personal use</text>
+  <text x="600" y="695" font-family="Arial, sans-serif" font-size="11" fill="#f39c12">  Transparency win</text>
+  
+  <!-- Total savings -->
+  <rect x="200" y="725" width="500" height="55" rx="15" fill="url(#savingsGrad)"/>
+  <text x="450" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white">TOTAL ANNUAL SAVINGS: $3.25 - $4.0 BILLION</text>
+  <text x="450" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">That's $1,200 - $1,500 per household WITHOUT any tax increases</text>
+  
+</svg>

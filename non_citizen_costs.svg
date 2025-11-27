@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800">
+  <rect width="1000" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">NON-CITIZEN POPULATION: COSTS TO MASSACHUSETTS TAXPAYERS</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">Sources: US Census ACS 2024, FAIR, Center for Immigration Studies, MassBudget</text>
+  
+  <!-- Population Box -->
+  <rect x="30" y="75" width="300" height="175" rx="10" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <text x="180" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2980b9">POPULATION BREAKDOWN</text>
+  
+  <text x="50" y="130" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Total MA Population:</text>
+  <text x="290" y="130" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#2c3e50">7,136,171</text>
+  
+  <text x="50" y="155" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Non-Citizens (9.0%):</text>
+  <text x="290" y="155" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">641,080</text>
+  
+  <text x="50" y="180" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Est. Unauthorized:</text>
+  <text x="290" y="180" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">~275,000</text>
+  
+  <text x="50" y="205" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">+ US-Born Children:</text>
+  <text x="290" y="205" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">~118,000</text>
+  
+  <text x="50" y="235" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">TOTAL AFFECTED: ~393,000</text>
+  
+  <!-- Annual Costs Box -->
+  <rect x="350" y="75" width="320" height="175" rx="10" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="2"/>
+  <text x="510" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">ANNUAL COSTS (ESTIMATED)</text>
+  
+  <text x="370" y="130" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Education (25K+ students):</text>
+  <text x="630" y="130" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">$575M+</text>
+  
+  <text x="370" y="155" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Emergency Shelter:</text>
+  <text x="630" y="155" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">$1,000M+</text>
+  
+  <text x="370" y="180" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Healthcare (MassHealth):</text>
+  <text x="630" y="180" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">$800M+</text>
+  
+  <text x="370" y="205" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Other Services:</text>
+  <text x="630" y="205" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">$525M+</text>
+  
+  <line x1="370" y1="218" x2="630" y2="218" stroke="#c0392b" stroke-width="2"/>
+  <text x="370" y="240" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">TOTAL ANNUAL COST:</text>
+  <text x="630" y="240" text-anchor="end" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">$2.9 BILLION</text>
+  
+  <!-- Per Household Box -->
+  <rect x="690" y="75" width="280" height="175" rx="10" fill="#9b59b6" opacity="0.15" stroke="#9b59b6" stroke-width="2"/>
+  <text x="830" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#8e44ad">YOUR SHARE</text>
+  
+  <text x="830" y="145" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#8e44ad">$1,094</text>
+  <text x="830" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">per household per year</text>
+  <text x="830" y="200" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">(2.65 million households)</text>
+  <text x="830" y="235" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#8e44ad">Source: FAIR 2023 Report</text>
+  
+  <!-- Cost Breakdown Chart -->
+  <rect x="30" y="270" width="620" height="250" rx="10" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="340" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">COST BREAKDOWN BY CATEGORY</text>
+  
+  <!-- Bar chart -->
+  <rect x="60" y="320" width="172" height="30" fill="#3498db" rx="3"/>
+  <text x="65" y="340" font-family="Arial, sans-serif" font-size="12" fill="white">Emergency Shelter</text>
+  <text x="240" y="340" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">$1,000M+ (34%)</text>
+  
+  <rect x="60" y="360" width="137" height="30" fill="#e74c3c" rx="3"/>
+  <text x="65" y="380" font-family="Arial, sans-serif" font-size="12" fill="white">Healthcare</text>
+  <text x="205" y="380" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">$800M+ (28%)</text>
+  
+  <rect x="60" y="400" width="99" height="30" fill="#f39c12" rx="3"/>
+  <text x="65" y="420" font-family="Arial, sans-serif" font-size="12" fill="white">Education</text>
+  <text x="167" y="420" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">$575M+ (20%)</text>
+  
+  <rect x="60" y="440" width="90" height="30" fill="#9b59b6" rx="3"/>
+  <text x="65" y="460" font-family="Arial, sans-serif" font-size="12" fill="white">Other Services</text>
+  <text x="158" y="460" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2c3e50">$525M+ (18%)</text>
+  
+  <text x="340" y="505" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Other includes: Criminal justice, general welfare, social services</text>
+  
+  <!-- Education Detail -->
+  <rect x="670" y="270" width="300" height="250" rx="10" fill="white" stroke="#bdc3c7" stroke-width="1"/>
+  <text x="820" y="295" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">EDUCATION COSTS</text>
+  
+  <text x="690" y="325" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Children in MA schools:</text>
+  <text x="940" y="325" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">~25,000</text>
+  
+  <text x="690" y="350" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">+ US-born of unauthorized:</text>
+  <text x="940" y="350" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">~25,000</text>
+  
+  <text x="690" y="375" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">Average cost per pupil:</text>
+  <text x="940" y="375" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#2c3e50">$23,000</text>
+  
+  <text x="690" y="400" font-family="Arial, sans-serif" font-size="12" fill="#2c3e50">ESL premium (+20-40%):</text>
+  <text x="940" y="400" text-anchor="end" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#e74c3c">+$115M</text>
+  
+  <line x1="690" y1="420" x2="940" y2="420" stroke="#bdc3c7" stroke-width="1"/>
+  
+  <text x="690" y="445" font-family="Arial, sans-serif" font-size="13" font-weight="bold" fill="#c0392b">BASE EDUCATION COST:</text>
+  <text x="940" y="445" text-anchor="end" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">$575M+</text>
+  
+  <text x="820" y="480" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">~40% arrived since 2021</text>
+  <text x="820" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">Source: CIS, CBO studies</text>
+  
+  <!-- Timeline Warning -->
+  <rect x="30" y="540" width="940" height="110" rx="10" fill="#f39c12" opacity="0.15" stroke="#f39c12" stroke-width="2"/>
+  <text x="500" y="570" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#d35400">⚠️ 2026 WARNING: "FISCAL TIME BOMB"</text>
+  
+  <text x="50" y="600" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">• After 5 years in US, immigrants become eligible for additional federal benefits (SNAP, SSI, TANF)</text>
+  <text x="50" y="622" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">• Many arrivals from 2021 will become eligible in 2026</text>
+  <text x="50" y="644" font-family="Arial, sans-serif" font-size="13" fill="#e74c3c" font-weight="bold">• Estimated additional cost: Hundreds of millions in new annual welfare spending</text>
+  
+  <!-- Bottom comparison -->
+  <rect x="30" y="665" width="940" height="120" rx="10" fill="#27ae60" opacity="0.15" stroke="#27ae60" stroke-width="2"/>
+  <text x="500" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#1e8449">WHAT $2.9 BILLION COULD FUND INSTEAD</text>
+  
+  <text x="170" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Property Tax Relief</text>
+  <text x="170" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">$1,094</text>
+  <text x="170" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">per household</text>
+  
+  <text x="400" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Fix MBTA</text>
+  <text x="400" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">100%</text>
+  <text x="400" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">of annual budget</text>
+  
+  <text x="620" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Teacher Pay Raises</text>
+  <text x="620" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">$28,400</text>
+  <text x="620" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">per teacher</text>
+  
+  <text x="840" y="730" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#2c3e50">Infrastructure</text>
+  <text x="840" y="755" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#27ae60">580 mi</text>
+  <text x="840" y="775" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">of road repair</text>
+</svg>

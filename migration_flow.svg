@@ -1,0 +1,102 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="leavingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b"/>
+      <stop offset="100%" style="stop-color:#ee5a5a"/>
+    </linearGradient>
+    <linearGradient id="enteringGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#4ecdc4"/>
+      <stop offset="100%" style="stop-color:#3db9b1"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="2" dy="2" stdDeviation="3" flood-opacity="0.3"/>
+    </filter>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="700" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="450" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">Massachusetts Migration Crisis: 2018-2022</text>
+  <text x="450" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#7f8c8d">153,080 net people lost | $12.2 billion net AGI lost</text>
+  
+  <!-- Massachusetts in center -->
+  <ellipse cx="450" cy="320" rx="80" ry="50" fill="#3498db" filter="url(#shadow)"/>
+  <text x="450" y="315" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">MASSACHUSETTS</text>
+  <text x="450" y="333" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">7.0M residents</text>
+  
+  <!-- Outflow arrows (left side - leaving) -->
+  <g>
+    <!-- Florida -->
+    <path d="M370 320 Q 250 280, 130 200" stroke="url(#leavingGrad)" stroke-width="12" fill="none" opacity="0.8"/>
+    <rect x="20" y="170" width="130" height="55" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+    <text x="85" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FLORIDA</text>
+    <text x="85" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">23,596 people</text>
+    <text x="85" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$2.86B AGI</text>
+    
+    <!-- New Hampshire -->
+    <path d="M400 275 Q 350 200, 280 120" stroke="url(#leavingGrad)" stroke-width="10" fill="none" opacity="0.8"/>
+    <rect x="200" y="85" width="130" height="55" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+    <text x="265" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">NEW HAMPSHIRE</text>
+    <text x="265" y="120" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">18,189 people</text>
+    <text x="265" y="133" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$1.42B AGI</text>
+    
+    <!-- Texas -->
+    <path d="M370 345 Q 200 400, 100 450" stroke="url(#leavingGrad)" stroke-width="6" fill="none" opacity="0.8"/>
+    <rect x="20" y="420" width="110" height="55" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+    <text x="75" y="440" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">TEXAS</text>
+    <text x="75" y="455" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">7,839 people</text>
+    <text x="75" y="468" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$520M AGI</text>
+    
+    <!-- North Carolina -->
+    <path d="M380 360 Q 280 500, 160 560" stroke="url(#leavingGrad)" stroke-width="5" fill="none" opacity="0.8"/>
+    <rect x="80" y="540" width="110" height="55" rx="8" fill="#ff6b6b" filter="url(#shadow)"/>
+    <text x="135" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" font-weight="bold" fill="white">N. CAROLINA</text>
+    <text x="135" y="575" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">6,295 people</text>
+    <text x="135" y="588" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$377M AGI</text>
+  </g>
+  
+  <!-- Inflow arrows (right side - arriving) - smaller -->
+  <g>
+    <!-- New York inflow -->
+    <path d="M530 320 Q 620 280, 700 220" stroke="url(#enteringGrad)" stroke-width="8" fill="none" opacity="0.7"/>
+    <rect x="660" y="170" width="120" height="55" rx="8" fill="#4ecdc4" filter="url(#shadow)"/>
+    <text x="720" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">NEW YORK</text>
+    <text x="720" y="205" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">13,811 people</text>
+    <text x="720" y="218" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$1.23B AGI</text>
+    
+    <!-- California inflow -->
+    <path d="M510 290 Q 600 200, 680 110" stroke="url(#enteringGrad)" stroke-width="6" fill="none" opacity="0.7"/>
+    <rect x="620" y="70" width="115" height="55" rx="8" fill="#4ecdc4" filter="url(#shadow)"/>
+    <text x="677" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">CALIFORNIA</text>
+    <text x="677" y="105" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">9,344 people</text>
+    <text x="677" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$1.15B AGI</text>
+    
+    <!-- Florida inflow -->
+    <path d="M530 340 Q 650 380, 740 420" stroke="url(#enteringGrad)" stroke-width="5" fill="none" opacity="0.7"/>
+    <rect x="700" y="390" width="110" height="55" rx="8" fill="#4ecdc4" filter="url(#shadow)"/>
+    <text x="755" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">FLORIDA</text>
+    <text x="755" y="425" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">10,490 people</text>
+    <text x="755" y="438" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="white">$1.40B AGI</text>
+  </g>
+  
+  <!-- Summary boxes -->
+  <rect x="50" y="620" width="250" height="65" rx="10" fill="#c0392b" filter="url(#shadow)"/>
+  <text x="175" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">LEAVING (2021-2022)</text>
+  <text x="175" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">159,200 people | $13.2B AGI</text>
+  <text x="175" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Avg income: $126,376</text>
+  
+  <rect x="600" y="620" width="250" height="65" rx="10" fill="#27ae60" filter="url(#shadow)"/>
+  <text x="725" y="645" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">ARRIVING (2021-2022)</text>
+  <text x="725" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">113,586 people | $9.3B AGI</text>
+  <text x="725" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="white">Avg income: $119,416</text>
+  
+  <!-- Net loss callout -->
+  <rect x="340" y="420" width="220" height="70" rx="10" fill="#2c3e50" filter="url(#shadow)"/>
+  <text x="450" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">NET LOSS (2021-22)</text>
+  <text x="450" y="465" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="white">45,614 people</text>
+  <text x="450" y="482" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#e74c3c">$3.87 BILLION AGI</text>
+  
+  <!-- Source -->
+  <text x="450" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">Source: IRS Statistics of Income Migration Data</text>
+</svg>

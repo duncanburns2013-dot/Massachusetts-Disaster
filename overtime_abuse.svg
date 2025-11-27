@@ -1,0 +1,120 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700">
+  <defs>
+    <linearGradient id="otGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#e74c3c"/>
+      <stop offset="100%" style="stop-color:#c0392b"/>
+    </linearGradient>
+  </defs>
+  
+  <rect width="900" height="700" fill="#1a1a2e"/>
+  
+  <!-- Title -->
+  <text x="450" y="40" text-anchor="middle" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#ecf0f1">State Payroll: $10 Billion + $599M Overtime</text>
+  <text x="450" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#95a5a6">Some departments spend over 25% of payroll on overtime alone</text>
+  
+  <!-- Total payroll boxes -->
+  <rect x="100" y="85" width="200" height="70" rx="10" fill="#27ae60"/>
+  <text x="200" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Payroll</text>
+  <text x="200" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">$10.04B</text>
+  
+  <rect x="350" y="85" width="200" height="70" rx="10" fill="#e74c3c"/>
+  <text x="450" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">Total Overtime</text>
+  <text x="450" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">$599M</text>
+  
+  <rect x="600" y="85" width="200" height="70" rx="10" fill="#f39c12"/>
+  <text x="700" y="115" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="white">OT as % of Total</text>
+  <text x="700" y="140" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="white">6.0%</text>
+  
+  <!-- Overtime abuse section -->
+  <text x="450" y="190" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">🚨 OVERTIME ABUSE: Departments Where OT Exceeds 15%</text>
+  
+  <!-- Bar chart -->
+  <g transform="translate(100, 210)">
+    <!-- Suffolk Sheriff: 27.4% -->
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Suffolk Sheriff</text>
+    <rect x="150" y="10" width="411" height="25" fill="#2d3a4f" rx="3"/>
+    <rect x="150" y="10" width="411" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="570" y="28" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">27.4%</text>
+    <text x="580" y="28" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$28.4M OT / $103.7M total</text>
+    
+    <!-- Barnstable Sheriff: 18.5% -->
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Barnstable Sheriff</text>
+    <rect x="150" y="45" width="278" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="436" y="63" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">18.5%</text>
+    <text x="446" y="63" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$6.3M OT / $34.3M total</text>
+    
+    <!-- Bristol Sheriff: 18.2% -->
+    <text x="0" y="95" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Bristol Sheriff</text>
+    <rect x="150" y="80" width="273" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="431" y="98" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">18.2%</text>
+    <text x="441" y="98" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$7.7M OT / $42.2M total</text>
+    
+    <!-- Dept of Correction: 16.2% -->
+    <text x="0" y="130" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Dept of Correction</text>
+    <rect x="150" y="115" width="243" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="401" y="133" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">16.2%</text>
+    <text x="411" y="133" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$70.9M OT / $438.2M total</text>
+    
+    <!-- Norfolk Sheriff: 15.4% -->
+    <text x="0" y="165" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Norfolk Sheriff</text>
+    <rect x="150" y="150" width="231" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="389" y="168" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">15.4%</text>
+    <text x="399" y="168" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$4.5M OT / $29.1M total</text>
+    
+    <!-- State Police: 15.3% -->
+    <text x="0" y="200" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">State Police</text>
+    <rect x="150" y="185" width="230" height="25" fill="url(#otGrad)" rx="3"/>
+    <text x="388" y="203" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">15.3%</text>
+    <text x="398" y="203" font-family="Arial, sans-serif" font-size="10" fill="#f1c40f">$68.7M OT / $449.9M total</text>
+  </g>
+  
+  <!-- Top OT spenders by dollars -->
+  <text x="450" y="450" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ecf0f1">💸 TOP 5 OVERTIME SPENDERS (Total Dollars)</text>
+  
+  <g transform="translate(100, 470)">
+    <!-- MBTA: $122.1M -->
+    <text x="0" y="20" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">MBTA</text>
+    <rect x="120" y="5" width="300" height="22" fill="#3498db" rx="3"/>
+    <text x="430" y="21" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">$122.1M</text>
+    <text x="440" y="21" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">(13.9% of $877M)</text>
+    
+    <!-- Dept of Correction: $70.9M -->
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Correction</text>
+    <rect x="120" y="35" width="174" height="22" fill="#e74c3c" rx="3"/>
+    <text x="304" y="51" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">$70.9M</text>
+    <text x="314" y="51" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">(16.2% of $438M)</text>
+    
+    <!-- State Police: $68.7M -->
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">State Police</text>
+    <rect x="120" y="65" width="169" height="22" fill="#9b59b6" rx="3"/>
+    <text x="299" y="81" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">$68.7M</text>
+    <text x="309" y="81" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">(15.3% of $450M)</text>
+    
+    <!-- Mental Health: $50.1M -->
+    <text x="0" y="110" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">Mental Health</text>
+    <rect x="120" y="95" width="123" height="22" fill="#f39c12" rx="3"/>
+    <text x="253" y="111" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">$50.1M</text>
+    <text x="263" y="111" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">(14.1% of $357M)</text>
+    
+    <!-- MassDOT: $43.2M -->
+    <text x="0" y="140" font-family="Arial, sans-serif" font-size="12" fill="#ecf0f1">MassDOT</text>
+    <rect x="120" y="125" width="106" height="22" fill="#1abc9c" rx="3"/>
+    <text x="236" y="141" text-anchor="end" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="white">$43.2M</text>
+    <text x="246" y="141" font-family="Arial, sans-serif" font-size="10" fill="#95a5a6">(9.9% of $437M)</text>
+  </g>
+  
+  <!-- Law enforcement total -->
+  <rect x="550" y="470" width="300" height="130" rx="10" fill="#c0392b"/>
+  <text x="700" y="500" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="white">⚔️ LAW ENFORCEMENT TOTAL</text>
+  <text x="700" y="535" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white">$1.51B</text>
+  <text x="700" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="white">Total Payroll (Police + Sheriff + Correction)</text>
+  <text x="700" y="585" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#f1c40f">$215M Overtime (14.2%)</text>
+  
+  <!-- Bottom callout -->
+  <rect x="100" y="630" width="700" height="50" rx="8" fill="#2d3a4f"/>
+  <text x="450" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#ecf0f1">Higher Ed System: $4.1 BILLION in payroll (41% of state total)</text>
+  <text x="450" y="672" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#95a5a6">UMass System alone: $1.68B | All state colleges: $2.4B combined</text>
+  
+  <!-- Source -->
+  <text x="450" y="695" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">Source: MA Comptroller FY2025 State Payroll Data</text>
+</svg>

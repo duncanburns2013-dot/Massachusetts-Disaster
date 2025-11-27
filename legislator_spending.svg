@@ -1,0 +1,132 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <defs>
+    <style>
+      .title { font: bold 22px Arial; fill: #1a1a1a; }
+      .subtitle { font: 13px Arial; fill: #666; }
+      .label { font: 11px Arial; fill: #333; }
+      .value { font: bold 11px Arial; fill: #333; }
+      .bar-label { font: 10px Arial; fill: #fff; }
+      .axis { stroke: #ccc; stroke-width: 1; }
+    </style>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="900" height="600" fill="#fafafa"/>
+  
+  <!-- Title -->
+  <text x="450" y="30" text-anchor="middle" class="title">Campaign Spending on Dining, Entertainment &amp; Travel</text>
+  <text x="450" y="50" text-anchor="middle" class="subtitle">Source: Massachusetts Office of Campaign and Political Finance (OCPF) | Top 15 Filers</text>
+  
+  <!-- Chart Area -->
+  <g transform="translate(200, 70)">
+    <!-- Axis -->
+    <line x1="0" y1="0" x2="0" y2="500" class="axis"/>
+    <line x1="0" y1="500" x2="650" y2="500" class="axis"/>
+    
+    <!-- Grid lines -->
+    <line x1="130" y1="0" x2="130" y2="500" stroke="#eee"/>
+    <line x1="260" y1="0" x2="260" y2="500" stroke="#eee"/>
+    <line x1="390" y1="0" x2="390" y2="500" stroke="#eee"/>
+    <line x1="520" y1="0" x2="520" y2="500" stroke="#eee"/>
+    <line x1="650" y1="0" x2="650" y2="500" stroke="#eee"/>
+    
+    <!-- X-axis labels -->
+    <text x="0" y="520" class="label">$0</text>
+    <text x="130" y="520" class="label">$250K</text>
+    <text x="260" y="520" class="label">$500K</text>
+    <text x="390" y="520" class="label">$750K</text>
+    <text x="520" y="520" class="label">$1.0M</text>
+    <text x="650" y="520" class="label">$1.25M</text>
+    
+    <!-- Bars (scaled: $1M = 520px) -->
+    <!-- Wu, Michelle: $1,367K -->
+    <rect x="0" y="5" width="711" height="28" fill="#7c3aed" rx="3"/>
+    <text x="-5" y="24" text-anchor="end" class="label">Wu, Michelle</text>
+    <text x="720" y="24" class="value">$1.37M</text>
+    
+    <!-- Healey, Maura T.: $1,044K -->
+    <rect x="0" y="38" width="543" height="28" fill="#2563eb" rx="3"/>
+    <text x="-5" y="57" text-anchor="end" class="label">Healey, Maura T.</text>
+    <text x="552" y="57" class="value">$1.04M</text>
+    
+    <!-- Spilka, Karen: $1,039K -->
+    <rect x="0" y="71" width="540" height="28" fill="#dc2626" rx="3"/>
+    <text x="-5" y="90" text-anchor="end" class="label">Spilka, Karen</text>
+    <text x="549" y="90" class="value">$1.04M</text>
+    
+    <!-- Mariano, Ronald: $722K -->
+    <rect x="0" y="104" width="375" height="28" fill="#dc2626" rx="3"/>
+    <text x="-5" y="123" text-anchor="end" class="label">Mariano, Ronald</text>
+    <text x="384" y="123" class="value">$722K</text>
+    
+    <!-- Moran, Michael J.: $641K -->
+    <rect x="0" y="137" width="333" height="28" fill="#0891b2" rx="3"/>
+    <text x="-5" y="156" text-anchor="end" class="label">Moran, Michael J.</text>
+    <text x="342" y="156" class="value">$641K</text>
+    
+    <!-- DiDomenico, Sal N.: $484K -->
+    <rect x="0" y="170" width="252" height="28" fill="#0891b2" rx="3"/>
+    <text x="-5" y="189" text-anchor="end" class="label">DiDomenico, Sal N.</text>
+    <text x="261" y="189" class="value">$484K</text>
+    
+    <!-- Finegold, Barry R.: $379K -->
+    <rect x="0" y="203" width="197" height="28" fill="#0891b2" rx="3"/>
+    <text x="-5" y="222" text-anchor="end" class="label">Finegold, Barry R.</text>
+    <text x="206" y="222" class="value">$379K</text>
+    
+    <!-- Barrett, Michael J.: $222K -->
+    <rect x="0" y="236" width="115" height="28" fill="#22c55e" rx="3"/>
+    <text x="-5" y="255" text-anchor="end" class="label">Barrett, Michael J.</text>
+    <text x="124" y="255" class="value">$222K</text>
+    
+    <!-- Brownsberger: $210K -->
+    <rect x="0" y="269" width="109" height="28" fill="#22c55e" rx="3"/>
+    <text x="-5" y="288" text-anchor="end" class="label">Brownsberger, William</text>
+    <text x="118" y="288" class="value">$210K</text>
+    
+    <!-- Rush, Michael F.: $203K -->
+    <rect x="0" y="302" width="106" height="28" fill="#22c55e" rx="3"/>
+    <text x="-5" y="321" text-anchor="end" class="label">Rush, Michael F.</text>
+    <text x="115" y="321" class="value">$203K</text>
+    
+    <!-- Hogan, Kate: $160K -->
+    <rect x="0" y="335" width="83" height="28" fill="#f59e0b" rx="3"/>
+    <text x="-5" y="354" text-anchor="end" class="label">Hogan, Kate</text>
+    <text x="92" y="354" class="value">$160K</text>
+    
+    <!-- Cyr, Julian Andre: $157K -->
+    <rect x="0" y="368" width="82" height="28" fill="#f59e0b" rx="3"/>
+    <text x="-5" y="387" text-anchor="end" class="label">Cyr, Julian Andre</text>
+    <text x="91" y="387" class="value">$157K</text>
+    
+    <!-- Lovely, Joan: $148K -->
+    <rect x="0" y="401" width="77" height="28" fill="#f59e0b" rx="3"/>
+    <text x="-5" y="420" text-anchor="end" class="label">Lovely, Joan</text>
+    <text x="86" y="420" class="value">$148K</text>
+    
+    <!-- Gregoire, Danielle W.: $133K -->
+    <rect x="0" y="434" width="69" height="28" fill="#f59e0b" rx="3"/>
+    <text x="-5" y="453" text-anchor="end" class="label">Gregoire, Danielle W.</text>
+    <text x="78" y="453" class="value">$133K</text>
+    
+    <!-- Peisch, Alice Hanlon: $102K -->
+    <rect x="0" y="467" width="53" height="28" fill="#94a3b8" rx="3"/>
+    <text x="-5" y="486" text-anchor="end" class="label">Peisch, Alice Hanlon</text>
+    <text x="62" y="486" class="value">$102K</text>
+  </g>
+  
+  <!-- Legend -->
+  <g transform="translate(700, 100)">
+    <text x="0" y="0" class="label" style="font-weight:bold">Role</text>
+    <rect x="0" y="10" width="12" height="12" fill="#7c3aed" rx="2"/>
+    <text x="18" y="20" class="label">Mayor</text>
+    <rect x="0" y="28" width="12" height="12" fill="#2563eb" rx="2"/>
+    <text x="18" y="38" class="label">Governor</text>
+    <rect x="0" y="46" width="12" height="12" fill="#dc2626" rx="2"/>
+    <text x="18" y="56" class="label">Leadership</text>
+    <rect x="0" y="64" width="12" height="12" fill="#0891b2" rx="2"/>
+    <text x="18" y="74" class="label">Senator</text>
+    <rect x="0" y="82" width="12" height="12" fill="#22c55e" rx="2"/>
+    <text x="18" y="92" class="label">Representative</text>
+  </g>
+</svg>

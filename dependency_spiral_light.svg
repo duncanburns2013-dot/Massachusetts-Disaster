@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">THE DEPENDENCY SPIRAL</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">How Massachusetts traps itself in a cycle of decline</text>
+  
+  <!-- Central cycle diagram -->
+  <circle cx="500" cy="350" r="200" fill="none" stroke="#e74c3c" stroke-width="3" stroke-dasharray="10,5"/>
+  
+  <!-- Step 1 -->
+  <rect x="420" y="100" width="160" height="70" rx="10" fill="#e74c3c" opacity="0.15" stroke="#e74c3c" stroke-width="2"/>
+  <text x="500" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c0392b">1. HIGH TAXES</text>
+  <text x="500" y="150" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#2c3e50">&amp; HIGH COSTS</text>
+  <text x="500" y="165" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">5%+4% income, $10K property</text>
+  
+  <!-- Arrow 1->2 -->
+  <path d="M 580 135 Q 680 180 700 280" fill="none" stroke="#c0392b" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 2 -->
+  <rect x="670" y="280" width="160" height="70" rx="10" fill="#f39c12" opacity="0.15" stroke="#f39c12" stroke-width="2"/>
+  <text x="750" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d35400">2. PRODUCTIVE</text>
+  <text x="750" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#d35400">PEOPLE LEAVE</text>
+  <text x="750" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">86,382 filers, $12.1B AGI</text>
+  
+  <!-- Arrow 2->3 -->
+  <path d="M 750 350 Q 730 450 620 520" fill="none" stroke="#d35400" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 3 -->
+  <rect x="420" y="500" width="160" height="70" rx="10" fill="#9b59b6" opacity="0.15" stroke="#9b59b6" stroke-width="2"/>
+  <text x="500" y="525" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8e44ad">3. TAX BASE</text>
+  <text x="500" y="540" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#8e44ad">SHRINKS</text>
+  <text x="500" y="560" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#7f8c8d">-$607M/year state revenue</text>
+  
+  <!-- Arrow 3->4 -->
+  <path d="M 420 535 Q 300 500 250 400" fill="none" stroke="#8e44ad" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Step 4 -->
+  <rect x="170" y="280" width="160" height="90" rx="10" fill="#3498db" opacity="0.15" stroke="#3498db" stroke-width="2"/>
+  <text x="250" y="305" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2980b9">4. GOVERNMENT</text>
+  <text x="250" y="320" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#2980b9">RESPONSE</text>
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Raise taxes on remaining</text>
+  <text x="250" y="352" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Borrow more ($60B deficit)</text>
+  <text x="250" y="364" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" fill="#2c3e50">• Attract non-taxpayers for census</text>
+  
+  <!-- Arrow 4->1 -->
+  <path d="M 300 280 Q 350 200 420 150" fill="none" stroke="#2980b9" stroke-width="2" marker-end="url(#arrowhead)"/>
+  
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#7f8c8d"/>
+    </marker>
+  </defs>
+  
+  <!-- Center label -->
+  <circle cx="500" cy="350" r="60" fill="#c0392b" opacity="0.1"/>
+  <text x="500" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#c0392b">REPEAT</text>
+  <text x="500" y="360" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c0392b">UNTIL</text>
+  <text x="500" y="380" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#c0392b">COLLAPSE</text>
+  
+  <!-- Net position collapse -->
+  <rect x="30" y="600" width="940" height="85" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="500" y="625" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">NET POSITION COLLAPSE</text>
+  
+  <text x="150" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">FY2015</text>
+  <text x="150" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">-$34.7B</text>
+  
+  <text x="300" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">FY2020</text>
+  <text x="300" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#e74c3c">-$47.7B</text>
+  
+  <text x="450" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">FY2022</text>
+  <text x="450" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#f39c12">-$39.6B</text>
+  <text x="450" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#27ae60">(Fed aid peak)</text>
+  
+  <text x="600" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">FY2024</text>
+  <text x="600" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">-$60.2B</text>
+  
+  <text x="800" y="660" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#7f8c8d">2 Year Change</text>
+  <text x="800" y="680" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#c0392b">-$20.6B</text>
+  <text x="800" y="655" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#c0392b">When fed aid stopped</text>
+</svg>

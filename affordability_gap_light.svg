@@ -1,0 +1,77 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700">
+  <rect width="1000" height="700" fill="#ffffff"/>
+  
+  <!-- Title -->
+  <text x="500" y="35" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#2c3e50">THE MASSACHUSETTS AFFORDABILITY GAP</text>
+  <text x="500" y="58" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">Why 1 in 3 residents is on government healthcare | Sources: MIT Living Wage Calculator, US Census 2024</text>
+  
+  <!-- Left: What you need -->
+  <rect x="30" y="80" width="460" height="240" rx="10" fill="#e74c3c" opacity="0.1" stroke="#e74c3c" stroke-width="2"/>
+  <text x="260" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#c0392b">WHAT YOU NEED TO LIVE COMFORTABLY</text>
+  
+  <text x="50" y="150" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Single Adult (statewide):</text>
+  <text x="450" y="150" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">$116,022/year</text>
+  
+  <text x="50" y="185" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Single Adult (Boston only):</text>
+  <text x="450" y="185" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">$124,966/year</text>
+  
+  <text x="50" y="220" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Family of 4 (2 workers, 2 kids):</text>
+  <text x="450" y="220" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#e74c3c">$301,184/year</text>
+  
+  <line x1="50" y1="240" x2="450" y2="240" stroke="#e74c3c" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="260" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Based on 50% needs / 30% wants / 20% savings</text>
+  <text x="260" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="11" fill="#c0392b" font-weight="bold">MA is #1 MOST EXPENSIVE state in America</text>
+  
+  <!-- Right: What you earn -->
+  <rect x="510" y="80" width="460" height="240" rx="10" fill="#3498db" opacity="0.1" stroke="#3498db" stroke-width="2"/>
+  <text x="740" y="110" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#2980b9">WHAT MASSACHUSETTS RESIDENTS EARN</text>
+  
+  <text x="530" y="150" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Median Household Income:</text>
+  <text x="930" y="150" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">$104,800/year</text>
+  
+  <text x="530" y="185" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Single-Person Median:</text>
+  <text x="930" y="185" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">$46,012/year</text>
+  
+  <text x="530" y="220" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Family Median Income:</text>
+  <text x="930" y="220" text-anchor="end" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#3498db">$128,134/year</text>
+  
+  <line x1="530" y1="240" x2="930" y2="240" stroke="#3498db" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <text x="740" y="270" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">27% of households earn under $50,000</text>
+  <text x="740" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">In the most expensive state in the country</text>
+  
+  <!-- Gap calculation -->
+  <rect x="30" y="340" width="940" height="130" rx="10" fill="#c0392b" opacity="0.1" stroke="#c0392b" stroke-width="2"/>
+  <text x="500" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#c0392b">THE AFFORDABILITY GAP</text>
+  
+  <text x="200" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Single Adult Gap:</text>
+  <text x="200" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">-$70,010</text>
+  
+  <text x="500" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Family of 4 Gap:</text>
+  <text x="500" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">-$173,050</text>
+  
+  <text x="800" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#2c3e50">Median HH Shortfall:</text>
+  <text x="800" y="445" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#c0392b">-$21,440</text>
+  
+  <!-- Result boxes -->
+  <rect x="30" y="490" width="300" height="95" rx="10" fill="#9b59b6" opacity="0.1" stroke="#9b59b6" stroke-width="2"/>
+  <text x="180" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#8e44ad">MassHealth Enrollment</text>
+  <text x="180" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#8e44ad">2.3M</text>
+  <text x="180" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">33% of state on Medicaid</text>
+  
+  <rect x="350" y="490" width="300" height="95" rx="10" fill="#e67e22" opacity="0.1" stroke="#e67e22" stroke-width="2"/>
+  <text x="500" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#d35400">Under $50K Households</text>
+  <text x="500" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#d35400">27%</text>
+  <text x="500" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">Can't afford to live here</text>
+  
+  <rect x="670" y="490" width="300" height="95" rx="10" fill="#1abc9c" opacity="0.1" stroke="#1abc9c" stroke-width="2"/>
+  <text x="820" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="bold" fill="#16a085">People Leaving (4 yrs)</text>
+  <text x="820" y="555" text-anchor="middle" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#16a085">86,382</text>
+  <text x="820" y="578" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#7f8c8d">$12.1B in income gone</text>
+  
+  <!-- Bottom line -->
+  <rect x="30" y="605" width="940" height="80" rx="10" fill="#2c3e50" opacity="0.05" stroke="#2c3e50" stroke-width="1"/>
+  <text x="500" y="640" text-anchor="middle" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#2c3e50">THE VICIOUS CYCLE</text>
+  <text x="500" y="665" text-anchor="middle" font-family="Arial, sans-serif" font-size="13" fill="#7f8c8d">High costs → People can't afford it → Go on government assistance OR leave → Tax base shrinks → Costs rise → Repeat</text>
+</svg>
